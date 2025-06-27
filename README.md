@@ -25,8 +25,9 @@
 
 ---
 
-### 🎵 My Coding Playlist
+### 🎧 Spotify Top Tracks
 
+*Lagu top saya dari Spotify akan muncul di sini secara otomatis...*
 ---
 
 ### 🚀 Tentang Saya
@@ -51,4 +52,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="Maftuuh1922's GitHub Stats" />
   <br/><br/>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <br/><br/>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=Maftuuh1922&theme=tokyonight" alt="GitHub Streak" />
 </p>
