@@ -30,7 +30,7 @@ async function getAccessToken() {
 }
 
 /**
- * Fungsi untuk membuat baris tabel HTML dengan sedikit polesan.
+ * Fungsi untuk membuat baris tabel HTML yang aman.
  */
 function createSongHtml(songItem, isNowPlaying = false) {
     const track = isNowPlaying ? songItem : songItem.track;
@@ -60,13 +60,13 @@ function createSongHtml(songItem, isNowPlaying = false) {
 }
 
 /**
- * Fungsi utama untuk menjalankan semua logika.
+ * Fungsi utama yang menjalankan semua logika.
  */
 async function main() {
   try {
     const accessToken = await getAccessToken();
     const headers = { Authorization: `Bearer ${accessToken}` };
-    let contentHtml = '';
+    let contentHtml = 'Nothing playing right now.'; // Default content
 
     // Cek lagu yang sedang diputar
     const nowPlayingRes = await fetch(NOW_PLAYING_ENDPOINT, { headers });
@@ -77,8 +77,8 @@ async function main() {
         }
     } 
     
-    // Jika tidak ada, ambil lagu terakhir
-    if (!contentHtml) {
+    // Jika tidak ada yang diputar, ambil lagu terakhir
+    if (contentHtml === 'Nothing playing right now.') {
         const recentlyPlayedRes = await fetch(RECENTLY_PLAYED_ENDPOINT + '?limit=5', { headers });
         if (recentlyPlayedRes.ok) {
             const data = await recentlyPlayedRes.json();
@@ -89,10 +89,8 @@ async function main() {
         }
     }
 
-    if (!contentHtml) contentHtml = 'Nothing playing right now.';
-
     // Update file README.md
-    const readmePath = 'README.md'; // <-- INI BAGIAN YANG DIPERBAIKI
+    const readmePath = 'README.md';
     const readme = fs.readFileSync(readmePath, 'utf-8');
     const newReadme = readme.replace(/[\s\S]*/, `\n${contentHtml}\n`);
     fs.writeFileSync(readmePath, newReadme);
