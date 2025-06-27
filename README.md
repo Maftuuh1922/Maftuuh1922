@@ -34,68 +34,25 @@
 
 ---
 
-### 🎵 Playlist Spotify Saya
-
-🧠 *Bagian ini diperbarui otomatis setiap 30 menit menggunakan GitHub Actions.*
+### 🎧 Playlist Spotify Saya
 
 <!--START_SECTION:spotify-->
-
-<table>
-  <thead>
-    <tr>
-      <th>🎵 Judul Lagu</th>
-      <th>🎤 Artis</th>
-      <th>⏱️ Waktu</th>
-    </tr>
-  </thead>
-  <tbody>
-
-  <tr>
-    <td><img src="https://i.scdn.co/image/ab67616d00001e0202e228d55f8d560e0e7ed5b3" width="20" /> RE FORRO</td>
-    <td>CA7RIEL & Paco Amoroso</td>
-    <td>59 sec ago</td>
-  </tr>
-
-  <tr>
-    <td><img src="https://i.scdn.co/image/ab67616d00001e02a97dd39032ef94d184701d95" width="20" /> BABY GANGSTA</td>
-    <td>CA7RIEL & Paco Amoroso</td>
-    <td>5 min ago</td>
-  </tr>
-
-  <tr>
-    <td><img src="https://i.scdn.co/image/ab67616d00001e02a97dd39032ef94d184701d95" width="20" /> EL ÚNICO</td>
-    <td>CA7RIEL & Paco Amoroso</td>
-    <td>7 min ago</td>
-  </tr>
-
-  <tr>
-    <td><img src="https://i.scdn.co/image/ab67616d00001e0278126e50c02dbeb62fc9a8c2" width="20" /> Welcome to the Black Parade</td>
-    <td>My Chemical Romance</td>
-    <td>10 min ago</td>
-  </tr>
-
-  <tr>
-    <td><img src="https://i.scdn.co/image/ab67616d00001e021d7fc15118a5a9f4d6de0864" width="20" /> Guggenheim Assemble</td>
-    <td>Daniel Pemberton</td>
-    <td>36 min ago</td>
-  </tr>
-
-  </tbody>
-</table>
-
+<!-- Data otomatis dari update.cjs akan muncul di sini -->
 <!--END_SECTION:spotify-->
+
+🧠 *Playlist ini diperbarui otomatis setiap 30 menit oleh GitHub Actions.*
 
 ---
 
 <details>
-  <summary>📊 Statistik GitHub Saya (klik untuk lihat)</summary>
+  <summary>📊 Statistik GitHub Saya</summary>
+  <br/>
 
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="GitHub Stats" />
     <br/><br/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
   </p>
-
 </details>
 
 ---
