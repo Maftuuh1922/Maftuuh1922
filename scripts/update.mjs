@@ -1,91 +1,104 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 
-// Ambil access token dari environment variable yang diatur oleh GitHub Actions
+// Ambil access token dari environment variable
 const accessToken = process.env.SPOTIFY_ACCESS_TOKEN;
 
+// Endpoint API Spotify yang sebenarnya
+const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
+const RECENTLY_PLAYED_ENDPOINT = 'https://api.spotify.com/v1/me/player/recently-played?limit=5';
+
 /**
- * Mengambil lagu yang terakhir diputar dari Spotify API.
+ * Fungsi untuk mengambil data dari Spotify API
+ * @param {string} url Endpoint API
+ * @returns {Promise<object|null>}
  */
-async function fetchSpotify() {
-  const res = await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=5', {
-    headers: {
-      Authorization: `Bearer ${accessToken}`,
-    },
-  });
-
-  // Jika gagal, tampilkan pesan error yang jelas
-  if (res.status !== 200) {
-    const errorBody = await res.text();
-    console.error(`⚠️ Gagal mengambil data dari Spotify. Status: ${res.status}`);
-    console.error('Pesan Error:', errorBody);
-    process.exit(1); // Hentikan script jika gagal
+async function fetchFromSpotify(url) {
+  const headers = { Authorization: `Bearer ${accessToken}` };
+  try {
+    const response = await fetch(url, { headers });
+    if (response.status === 204) { // 204 No Content -> Tidak ada lagu yang diputar
+      return null;
+    }
+    if (!response.ok) {
+      const errorBody = await response.text();
+      console.error(`⚠️ Gagal mengambil data dari Spotify. Status: ${response.status}`);
+      console.error('Pesan Error:', errorBody);
+      return null;
+    }
+    return response.json();
+  } catch (error) {
+    console.error('❌ Error saat fetch ke Spotify:', error);
+    return null;
   }
-  
-  const data = await res.json();
-
-  if (!data.items) {
-    console.error("⚠️ Respons Spotify tidak memiliki 'items'. Mungkin token tidak valid atau cakupan tidak menyertakan 'user-read-recently-played'.");
-    process.exit(1);
-  }
-
-  // Ambil hanya 5 lagu teratas dan ubah datanya
-  return data.items.slice(0, 5).map(item => {
-    const track = item.track;
-    const timeAgo = new Date(item.played_at);
-
-    return {
-      title: track.name.replace(/\|/g, '-'), // Ganti karakter `|` agar tidak merusak tabel
-      artist: track.artists.map(a => a.name).join(', ').replace(/\|/g, '-'),
-      time: `<t:${Math.floor(timeAgo.getTime() / 1000)}:R>`, // Format waktu relatif Discord
-      image: track.album.images[1]?.url || track.album.images[0]?.url,
-      url: track.external_urls.spotify
-    };
-  });
 }
 
 /**
- * Memperbarui file README.md dengan data lagu.
+ * Membuat baris tabel HTML untuk satu lagu
+ * @param {object} song Objek lagu
+ * @param {boolean} isNowPlaying Status apakah lagu sedang diputar
+ * @returns {string}
+ */
+function createSongHtml(song, isNowPlaying = false) {
+  const timeText = isNowPlaying ? 'Now Playing' : `<t:${Math.floor(new Date(song.played_at).getTime() / 1000)}:R>`;
+  const titleColor = isNowPlaying ? '#1DB954' : '#cbced2'; // Warna hijau jika sedang diputar
+
+  return `
+  <tr>
+    <td width="70" valign="top">
+      <a href="${song.track.external_urls.spotify}" target="_blank">
+        <img src="${song.track.album.images[2].url}" width="60" height="60" alt="${song.track.name}"/>
+      </a>
+    </td>
+    <td valign="middle">
+      <a href="${song.track.external_urls.spotify}" target="_blank" style="text-decoration: none; font-weight: bold; color: ${titleColor};">
+        ${song.track.name}
+      </a>
+      <br/>
+      <span style="font-size: 13px; color: #8b949e;">${song.track.artists.map(a => a.name).join(', ')}</span>
+    </td>
+    <td width="100" valign="middle" align="right">
+      <span style="font-size: 12px; color: #8b949e;">${timeText}</span>
+    </td>
+  </tr>`;
+}
+
+/**
+ * Fungsi utama untuk memperbarui README
  */
 async function updateReadme() {
+  let content = '';
+
+  // 1. Cek lagu yang sedang diputar (Online)
+  const nowPlayingData = await fetchFromSpotify(NOW_PLAYING_ENDPOINT);
+
+  if (nowPlayingData && nowPlayingData.is_playing) {
+    // Jika ada lagu yang sedang diputar, tampilkan lagu itu
+    content = '<table width="100%">' + createSongHtml({ track: nowPlayingData.item }, true) + '</table>';
+  } else {
+    // 2. Jika tidak ada, ambil lagu yang terakhir diputar (Offline)
+    const recentlyPlayedData = await fetchFromSpotify(RECENTLY_PLAYED_ENDPOINT);
+    if (recentlyPlayedData && recentlyPlayedData.items) {
+      let songsHtml = recentlyPlayedData.items.map(song => createSongHtml(song, false)).join('');
+      content = '<table width="100%">' + songsHtml + '</table>';
+    } else {
+      content = 'Nothing playing right now.';
+    }
+  }
+
+  // 3. Tulis ke file README.md
   try {
-    const songs = await fetchSpotify();
-
-    // 🎨 Layout menggunakan tabel Markdown asli
-    
-    // Header (kosong, karena kita tidak butuh judul kolom)
-    const header = `| ${songs.map(() => ' ').join(' | ')} |`;
-    // Separator (mengatur perataan tengah untuk setiap kolom)
-    const separator = `| ${songs.map(() => ':---:').join(' | ')} |`;
-
-    // Baris untuk gambar album
-    const images = `| ${songs.map(song => `<a href="${song.url}" target="_blank"><img src="${song.image}" width="100" alt="${song.title}"></a>`).join(' | ')} |`;
-    
-    // Baris untuk judul lagu (bisa diklik)
-    const titles = `| ${songs.map(song => `[${song.title}](${song.url})`).join(' | ')} |`;
-    
-    // Baris untuk artis
-    const artists = `| ${songs.map(song => song.artist).join(' | ')} |`;
-
-    // Gabungkan semua menjadi satu string tabel markdown
-    const markdownTable = [header, separator, images, titles, artists].join('\n');
-
     const readmePath = 'README.md';
     const readme = fs.readFileSync(readmePath, 'utf8');
-
-    // Ganti hanya bagian di antara tag spotify
     const updated = readme.replace(
       /[\s\S]*/,
-      `\n<div align="center">\n\n${markdownTable}\n\n</div>\n`
+      `\n${content}\n`
     );
-
     fs.writeFileSync(readmePath, updated);
-    console.log('✅ README diperbarui dengan layout tabel Markdown asli.');
-
+    console.log('✅ README diperbarui dengan status Spotify terbaru.');
   } catch (error) {
-    console.error('❌ Terjadi kesalahan saat memperbarui README:', error);
+    console.error('❌ Gagal menulis ke file README.md:', error);
   }
 }
 
-// Jalankan fungsi utama
 await updateReadme();
