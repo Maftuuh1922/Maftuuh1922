@@ -1,7 +1,7 @@
 {
-  "name": "spotify-readme",
+  "name": "spotify-readme-updater",
   "type": "module",
   "dependencies": {
-    "spotify-web-api-node": "^5.0.2"
+    "node-fetch": "^2.6.1"
   }
 }
