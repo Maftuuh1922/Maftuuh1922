@@ -34,27 +34,9 @@
 
 ---
 
-### 🖥️ Tools & Teknologi
+### 🎵 Playlist Spotify Saya
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,php,laravel,mysql,git,github,vscode,figma&perline=6" />
-  </a>
-</p>
-
----
-
-### 📊 Statistik GitHub Saya
-
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-  <br/><br/>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
-### 🎧 Recently Played Songs (from Spotify)
+🧠 *Bagian ini diperbarui otomatis setiap 30 menit menggunakan GitHub Actions.*
 
 <!--START_SECTION:spotify-->
 
@@ -105,4 +87,23 @@
 
 ---
 
-🧠 *README ini diperbarui otomatis setiap 30 menit dengan lagu terakhir yang diputar di Spotify menggunakan GitHub Actions.*
+<details>
+  <summary>📊 Statistik GitHub Saya (klik untuk lihat)</summary>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+    <br/><br/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
+  </p>
+
+</details>
+
+---
+
+### 🖥️ Tools & Teknologi
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,php,laravel,mysql,git,github,vscode,figma&perline=6" />
+  </a>
+</p>
