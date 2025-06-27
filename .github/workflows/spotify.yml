@@ -11,12 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: kristoferk/spotify-top-tracks-action@v1
+      - uses: Anmol-Baranwal/spotify-top-tracks-action@v1.2.1
         with:
           spotify_client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
           spotify_client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           spotify_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-          time_range: long_term
-          format: list
-          readme_path: ./README.md
           comment_tag_name: SPOTIFY-TOP-TRACKS
