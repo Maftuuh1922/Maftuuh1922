@@ -1,28 +1,36 @@
-name: Update Spotify README
+name: Update Spotify
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Setiap 10 menit
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
-  update-readme:
-    name: Spotify Update
+  update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
-      - name: Spotify Now Playing
-        uses: kittinan/spotify-github-profile@latest
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          node-version: 18
 
-      - name: Commit & Push
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run update script
+        run: node index.js
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+
+      - name: Commit changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "update spotify playing" || echo "No changes to commit"
+          git commit -m "Update Spotify section" || echo "No changes"
           git push
