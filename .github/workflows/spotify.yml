@@ -1,19 +1,41 @@
-name: Update Spotify Playlist
+name: Update Spotify
 
 on:
   schedule:
-    # Berjalan setiap 6 jam
-    - cron: '0 */6 * * *'
+    - cron: '*/10 * * * *' # Setiap 10 menit
   workflow_dispatch:
 
 jobs:
-  update-readme-with-playlist:
+  update-spotify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: dephraiim/spotify-readme-action@main
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          spotify_client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          spotify_client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          spotify_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-          playlist_id: 4Awn3g2DGRiI9I4I2n5L5u
+          node-version: 18
+
+      - name: Install script
+        run: |
+          git clone https://github.com/kittinan/spotify-github-profile.git spotify-script
+          cd spotify-script
+          npm install
+
+      - name: Generate README content
+        run: |
+          cd spotify-script
+          node index.js > ../README.md
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+
+      - name: Commit and push
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "Update Spotify now playing"
+          git push
+        continue-on-error: true
