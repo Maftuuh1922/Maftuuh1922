@@ -37,7 +37,7 @@ function createSongHtml(songItem, isNowPlaying = false) {
     if (!track?.album?.images[2]) return '';
 
     const timeText = isNowPlaying ? 'Now Playing' : 'Recently';
-    const titleColor = isNowPlaying ? '#1DB954' : '#ffffff'; // Judul lebih terang
+    const titleColor = isNowPlaying ? '#1DB954' : '#ffffff';
 
     return `
     <tr>
@@ -92,7 +92,8 @@ async function main() {
     if (!contentHtml) contentHtml = 'Nothing playing right now.';
 
     // Update file README.md
-    const readme = fs.readFileSync('README.md', 'utf-8');
+    const readmePath = 'README.md'; // <-- INI BAGIAN YANG DIPERBAIKI
+    const readme = fs.readFileSync(readmePath, 'utf-8');
     const newReadme = readme.replace(/[\s\S]*/, `\n${contentHtml}\n`);
     fs.writeFileSync(readmePath, newReadme);
     console.log('✅ Spotify data updated successfully!');
