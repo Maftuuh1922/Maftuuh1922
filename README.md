@@ -28,6 +28,22 @@
 
 ---
 
+### 🎵 My Spotify Playlist
+<p align="center">
+  <a href="https://open.spotify.com/playlist/6RPzonUCRExe0aGLFPLKvb?si=iQU7IiIORMO1e9l87UUUUg" target="_blank">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=haduhkk&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false" alt="Spotify Playlist" style="border-radius: 12px;"/>
+  </a>
+</p>
+
+<!-- Alternative: Manual Playlist Display -->
+<p align="center">
+  <a href="https://open.spotify.com/playlist/6RPzonUCRExe0aGLFPLKvb?si=iQU7IiIORMO1e9l87UUUUg" target="_blank">
+    <img src="https://img.shields.io/badge/🎵_My_Coding_Playlist-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist" style="border-radius: 8px;"/>
+  </a>
+</p>
+
+---
+
 ### 🚀 Tentang Saya
 - 🔭 Saat ini saya sedang mengerjakan proyek-proyek pribadi untuk mengasah skill.
 - 🌱 Saya sedang mendalami **React.js** dan **Next.js** untuk pengembangan web modern.
