@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" style="border-radius: 15px; border: 3px solid #58A6FF; box-shadow: 0 8px 32px rgba(88, 166, 255, 0.3);" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" style="border-radius: 20px; border: 4px solid #FF6B6B; box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4); padding: 2px;" />
 </p>
 
 <h1 align="center">
