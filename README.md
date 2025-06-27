@@ -1,78 +1,93 @@
-# Hey there! 👋 I'm Maftuuh
+<!-- README.md -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=440&lines=Full+Stack+Developer;Always+learning+new+things;Creative+Problem+Solver;Tech+Enthusiast" alt="Typing SVG" />
-</div>
+<!-- 👋 GIF INTRO -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" alt="Hi GIF" />
+</p>
 
-## 🚀 About Me
+<!-- HEADING -->
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/Hi.gif" width="30px" style="margin-right: 10px;">
+  Hai, Saya Muhammad Maftuh 👋
+</h1>
 
-- 🔭 I'm currently working on **Web Development Projects**
-- 🌱 I'm currently learning **React, Node.js, and Python**
-- 👯 I'm looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **Web Development, Programming, Tech**
-- 📫 How to reach me: **maftuuh@example.com**
-- ⚡ Fun fact: **I love listening to music while coding**
+<p align="center">
+  <sub>🎨 Coding in style • Full-stack Developer • Indonesia 🇮🇩</sub>
+</p>
 
-## 🎵 Currently Playing on Spotify
+<!-- LINK BUTTONS -->
+<p align="center">
+  <a href="https://linkedin.com/in/maftuuh" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://instagram.com/maftuuh" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:maftuuh@example.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+</p>
 
-<div align="center">
+---
+
+## 🚀 Tentang Saya
+
+- 🔭 Sedang fokus di proyek pengembangan web
+- 🌱 Saat ini belajar **React, Node.js**, dan **Python**
+- 💬 Bisa ditanya tentang: **PHP, Laravel, JS, Web Dev**
+- 📫 Kontak via: **email** atau **Instagram**
+- 🎧 Fun fact: Suka ngoding sambil denger musik 🎶
+
+---
+
+## 🎧 Currently Playing on Spotify
+
+<p align="center">
   <img src="https://spotify-github-profile.vercel.app/api/view?uid=Maftuuh1922&cover_image=true&theme=default&bar_color=1db954&bar_color_cover=false" alt="Spotify Now Playing" width="400" />
-</div>
+</p>
+
+---
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-</div>
+</p>
 
-<div align="center">
+<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maftuuh1922&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
+</p>
 
-## ⏰ WakaTime Coding Stats
+---
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+## 🛠️ Tools & Technologies
 
-## 📈 GitHub Activity Graph
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,python,php,laravel,mysql,git,github,vscode" />
+</p>
 
-<div align="center">
+---
+
+## 🏆 GitHub Trophy
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=onedark&no-frame=true&margin-w=4" />
+</p>
+
+---
+
+## 📈 Activity Graph
+
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=1db954&line=1db954&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
-</div>
+</p>
 
-## 🛠️ Languages and Tools
+---
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,python,java,git,github,vscode" />
-</div>
+## 📫 Contact Me
 
-<div align="center">
-  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=onedark&no-frame=true&no-bg=false&margin-w=4" />
-</div>
-
-## 📊 Profile Views
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Maftuuh1922&label=Profile%20views&color=1db954&style=flat" alt="Profile Views" />
-</div>
-
-## 🤝 Connect with Me
-
-<div align="center">
+<p align="center">
   <a href="https://linkedin.com/in/maftuuh">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -82,9 +97,9 @@
   <a href="mailto:maftuuh@example.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</div>
+</p>
 
-## 💻 Random Dev Quote
+---
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=onedark" />
@@ -92,6 +107,4 @@
 
 ---
 
-<div align="center">
-  <i>⭐️ From [Maftuuh1922](https://github.com/Maftuuh1922)</i>
-</div>
+<p align="center"><i>⭐️ Dibuat oleh <a href="https://github.com/Maftuuh1922">Maftuuh1922</a></i></p>
