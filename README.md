@@ -1,79 +1,97 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" />
-</p>
+# Hey there! 👋 I'm Maftuuh
 
-<p align="center">
-  <sub>🎨 Coding in style • Full-stack Developer • Indonesia 🇮🇩</sub>
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=440&lines=Full+Stack+Developer;Always+learning+new+things;Creative+Problem+Solver;Tech+Enthusiast" alt="Typing SVG" />
+</div>
 
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/Hi.gif" width="30px" style="margin-right: 10px;">
-  Hai, Saya Muhammad Maftuh
-</h1>
+## 🚀 About Me
 
-<p align="center">
-  <a href="https://linkedin.com/in/NAMA_PENGGUNA_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+- 🔭 I'm currently working on **Web Development Projects**
+- 🌱 I'm currently learning **React, Node.js, and Python**
+- 👯 I'm looking to collaborate on **Open Source Projects**
+- 💬 Ask me about **Web Development, Programming, Tech**
+- 📫 How to reach me: **maftuuh@example.com**
+- ⚡ Fun fact: **I love listening to music while coding**
+
+## 🎵 Currently Playing on Spotify
+
+<div align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=Maftuuh1922&cover_image=true&theme=default&bar_color=1db954&bar_color_cover=false" alt="Spotify Now Playing" width="400" />
+</div>
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maftuuh1922&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+## ⏰ WakaTime Coding Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+## 📈 GitHub Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=1db954&line=1db954&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
+</div>
+
+## 🛠️ Languages and Tools
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,python,java,git,github,vscode" />
+</div>
+
+<div align="center">
+  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+</div>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=onedark&no-frame=true&no-bg=false&margin-w=4" />
+</div>
+
+## 📊 Profile Views
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Maftuuh1922&label=Profile%20views&color=1db954&style=flat" alt="Profile Views" />
+</div>
+
+## 🤝 Connect with Me
+
+<div align="center">
+  <a href="https://linkedin.com/in/maftuuh">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://instagram.com/haduhkk" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  <a href="https://instagram.com/maftuuh">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="mailto:maftuhade123@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  <a href="mailto:maftuuh@example.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</p>
+</div>
+
+## 💻 Random Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=onedark" />
+</div>
 
 ---
 
-### 🚀 Tentang Saya
-
-- 🛠️ Sedang fokus mengerjakan proyek pribadi untuk mengasah skill.
-- 🌱 Saat ini belajar **React.js** dan **Next.js**.
-- 💬 Tanya saya tentang: **PHP, Laravel, JavaScript, dan Web Dev**.
-- 📫 Hubungi saya lewat **email** atau **Instagram**.
-
----
-
-### 🎧 Playlist Spotify Saya
-
-<!--START_SECTION:spotify-->
-
-<table>
-  <thead>
-    <tr>
-      <th>🎵 Judul Lagu</th>
-      <th>🎤 Artis</th>
-      <th>⏱️ Waktu</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Isi otomatis dari GitHub Actions -->
-  </tbody>
-</table>
-
-<!--END_SECTION:spotify-->
-
-🧠 *Playlist ini diperbarui otomatis setiap 30 menit oleh GitHub Actions.*
-
----
-
-<details>
-  <summary>📊 Statistik GitHub Saya</summary>
-  <br/>
-
-  <p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-    <br/><br/>
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
-  </p>
-</details>
-
----
-
-### 🖥️ Tools & Teknologi
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,php,laravel,mysql,git,github,vscode,figma&perline=6" />
-  </a>
-</p>
+<div align="center">
+  <i>⭐️ From [Maftuuh1922](https://github.com/Maftuuh1922)</i>
+</div>
