@@ -33,9 +33,7 @@
 
 ---
 
-### 🎧 Lagu Terakhir yang Saya Dengarkan di Spotify
-
-_Ini adalah lagu terakhir yang sedang atau baru saja saya dengarkan:_
+### 🎧 Recently Played Songs (from Spotify)
 
 <!--START_SECTION:spotify-->
 <!--END_SECTION:spotify-->
