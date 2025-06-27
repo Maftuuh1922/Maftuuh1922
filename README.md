@@ -54,4 +54,4 @@
 ### 📈 Grafik Aktivitas Kontribusi
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&theme=tokyonight&bg_color=1A1B27&hide_border=true&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF" alt="Contribution Graph" />
-</p>
+p>
