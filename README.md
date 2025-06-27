@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://pin.it/2sTDHKMQR" width="400" />
+  <img src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/main/coding.gif" width="400" />
 </p>
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/Hi.gif" width="30px" style="margin-right: 10px;">
   Hai, Saya Muhammad Maftuh
 </h1>
-<h3 align="center">NOOB Full-stack Web Developer & Mahasiswa dari Indonesia 🇮🇩</h3>
+<h3 align="center">Full-stack Web Developer & Mahasiswa dari Indonesia 🇮🇩</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/NAMA_PENGGUNA_LINKEDIN" target="_blank">
