@@ -2,44 +2,37 @@ name: Update Spotify
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # setiap 30 menit
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
-      - name: 📦 Refresh Spotify Token
-        id: refresh_token
-        run: |
-          node scripts/refresh-token.cjs > token.env
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+      - name: Refresh Spotify token
+        run: node scripts/refresh-token.cjs > token.env
 
-      - name: ✅ Load token to environment
-        run: |
-          echo "SPOTIFY_ACCESS_TOKEN=$(grep access_token token.env | cut -d= -f2)" >> $GITHUB_ENV
+      - name: Load token to environment
+        run: echo "SPOTIFY_ACCESS_TOKEN=$(grep access_token token.env | cut -d= -f2)" >> $GITHUB_ENV
 
-      - name: 🔄 Jalankan update.cjs
+      - name: Update README with Spotify data
         run: node scripts/update.mjs
 
-      - name: 📤 Commit changes
+      - name: Commit and push if changed
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "🔄 Update Spotify recently played" || echo "No changes to commit"
+          git commit -m "🔄 Update Spotify recently played" || exit 0
           git push
