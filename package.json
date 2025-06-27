@@ -1,9 +1,8 @@
 {
   "name": "spotify-readme-updater",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "axios": "^1.10.0",
-    "dotenv": "^16.6.1",
+    "dotenv": "^16.3.1",
     "node-fetch": "^2.6.1"
   }
 }
