@@ -30,30 +30,30 @@ async function getAccessToken() {
 }
 
 /**
- * Fungsi untuk membuat baris tabel HTML yang aman untuk GitHub.
+ * Fungsi untuk membuat baris tabel HTML dengan sedikit polesan.
  */
 function createSongHtml(songItem, isNowPlaying = false) {
     const track = isNowPlaying ? songItem : songItem.track;
     if (!track?.album?.images[2]) return '';
 
     const timeText = isNowPlaying ? 'Now Playing' : 'Recently';
-    const titleColor = isNowPlaying ? '#1DB954' : '#cbced2';
+    const titleColor = isNowPlaying ? '#1DB954' : '#ffffff'; // Judul lebih terang
 
     return `
     <tr>
-        <td width="70" valign="top">
+        <td width="65" valign="top">
             <a href="${track.external_urls.spotify}" target="_blank">
-                <img src="${track.album.images[2].url}" width="60" height="60" alt="${track.name}"/>
+                <img src="${track.album.images[2].url}" width="60" height="60" alt="${track.name}" style="border-radius:4px;"/>
             </a>
         </td>
-        <td valign="middle">
-            <a href="${track.external_urls.spotify}" target="_blank" style="text-decoration: none; font-weight: bold; color: ${titleColor};">
+        <td valign="top">
+            <a href="${track.external_urls.spotify}" target="_blank" style="text-decoration: none; font-weight: 600; font-size: 14px; color: ${titleColor};">
                 ${track.name}
             </a>
             <br/>
-            <span style="font-size: 13px; color: #8b949e;">${track.artists.map(a => a.name).join(', ')}</span>
+            <span style="font-size: 12px; color: #8b949e;">${track.artists.map(a => a.name).join(', ')}</span>
         </td>
-        <td width="100" valign="middle" align="right">
+        <td width="90" valign="top" align="right">
             <span style="font-size: 12px; color: #8b949e;">${timeText}</span>
         </td>
     </tr>`;
@@ -94,7 +94,7 @@ async function main() {
     // Update file README.md
     const readme = fs.readFileSync('README.md', 'utf-8');
     const newReadme = readme.replace(/[\s\S]*/, `\n${contentHtml}\n`);
-    fs.writeFileSync('README.md', newReadme);
+    fs.writeFileSync(readmePath, newReadme);
     console.log('✅ Spotify data updated successfully!');
 
   } catch (error) {
