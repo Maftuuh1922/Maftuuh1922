@@ -1,45 +1,44 @@
-name: Update Spotify
+name: Update Spotify Status
 
 on:
+  # Berjalan setiap 5 menit
   schedule:
-    - cron: "*/30 * * * *" # setiap 30 menit
+    - cron: '*/5 * * * *'
+  
+  # Tombol untuk menjalankan manual dari tab "Actions"
   workflow_dispatch:
 
 jobs:
-  update:
+  update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: 📦 Refresh Spotify Token
-        id: refresh_token
-        run: |
-          node scripts/refresh-token.cjs > token.env
+          node-version: 18
+      
+      - name: Update Spotify Data
+        # Menjalankan skrip utama Anda
+        run: node ./scripts/update.mjs
+        # Menggunakan secrets yang sudah Anda atur
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-
-      - name: ✅ Load token to environment
-        run: |
-          echo "SPOTIFY_ACCESS_TOKEN=$(grep access_token token.env | cut -d= -f2)" >> $GITHUB_ENV
-
-      - name: 🔄 Jalankan update.cjs
-        run: node scripts/update.mjs
-
-      - name: 📤 Commit changes
+      
+      - name: Commit and Push Changes
+        # INI BAGIAN PENTING YANG HILANG
+        # Menyimpan perubahan ke README.md dan mengirimkannya ke repositori
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "🔄 Update Spotify recently played" || echo "No changes to commit"
-          git push
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit."
+          else
+            git commit -m "📊 Update Spotify activity"
+            git push
+          fi
