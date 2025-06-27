@@ -1,4 +1,4 @@
-name: Update Spotify
+name: Update Spotify README
 
 on:
   schedule:
@@ -6,36 +6,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-spotify:
+  update-readme:
+    name: Spotify Update
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Spotify Now Playing
+        uses: kittinan/spotify-github-profile@latest
         with:
-          node-version: 18
+          client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
-      - name: Install script
-        run: |
-          git clone https://github.com/kittinan/spotify-github-profile.git spotify-script
-          cd spotify-script
-          npm install
-
-      - name: Generate README content
-        run: |
-          cd spotify-script
-          node index.js > ../README.md
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-
-      - name: Commit and push
+      - name: Commit & Push
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add README.md
-          git commit -m "Update Spotify now playing"
+          git commit -m "update spotify playing" || echo "No changes to commit"
           git push
-        continue-on-error: true
