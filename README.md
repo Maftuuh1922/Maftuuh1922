@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" style="border-radius: 20px; border: 4px solid #FF6B6B; box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4); padding: 2px;" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" />
+</p>
+
+<!-- Workaround untuk border dengan markdown -->
+<p align="center">
+  <sub>🎨 Coding in style • Full-stack Developer • Indonesia 🇮🇩</sub>
 </p>
 
 <h1 align="center">
