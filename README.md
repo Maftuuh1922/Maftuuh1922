@@ -25,15 +25,23 @@
 
 ---
 
-### 🎵 My Coding Playlist
-
----
-
 ### 🚀 Tentang Saya
 - 🔭 Saat ini saya sedang mengerjakan proyek-proyek pribadi untuk mengasah skill.
 - 🌱 Saya sedang mendalami **React.js** dan **Next.js** untuk pengembangan web modern.
 - 💬 Tanya saya tentang: **PHP, Laravel, JavaScript, dan fundamental web lainnya**.
 - 📫 Cara tercepat menghubungi saya adalah melalui **email**.
+
+---
+
+### 🎵 My Coding Playlist
+
+1. **Rex Orange County – Best Friend**
+2. **Mac Ayres – Easy**
+3. **NIKI – lowkey**
+4. **Keshi – right here**
+5. **Daniel Caesar – Best Part (feat. H.E.R.)**
+
+[![Spotify](https://img.shields.io/badge/Playlist-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/6RPzonUCRExe0aGLFPLKvb?si=iQU7IiIORMO1e9l87UUUUg&pi=sJQddfp9QRCo4)
 
 ---
 
