@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/Hi.gif" width="30px">
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/Hi.gif" width="30px" style="margin-right: 10px;">
   Hai, Saya Muhammad Maftuh
 </h1>
 
@@ -26,21 +26,16 @@
 ---
 
 ### 🚀 Tentang Saya
-- 🔭 Sedang fokus mengerjakan proyek pribadi untuk mengasah skill.
+
+- 🛠️ Sedang fokus mengerjakan proyek pribadi untuk mengasah skill.
 - 🌱 Saat ini belajar **React.js** dan **Next.js**.
-- 💬 Tanya saya tentang: **PHP, Laravel, JavaScript, Web Dev**.
+- 💬 Tanya saya tentang: **PHP, Laravel, JavaScript, dan Web Dev**.
 - 📫 Hubungi saya lewat **email** atau **Instagram**.
 
 ---
 
-### 🎧 Recently Played Songs (from Spotify)
+### 🖥️ Tools & Teknologi
 
-<!--START_SECTION:spotify-->
-<!--END_SECTION:spotify-->
-
----
-
-### 💻 Bahasa & Teknologi yang Saya Gunakan
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,php,laravel,mysql,git,github,vscode,figma&perline=6" />
@@ -50,8 +45,21 @@
 ---
 
 ### 📊 Statistik GitHub Saya
+
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="Maftuuh1922's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="GitHub Stats" />
   <br/><br/>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Maftuuh1922&locale=id&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
+
+---
+
+### 🎧 Recently Played Songs (from Spotify)
+
+<!--START_SECTION:spotify-->
+<!-- Data lagu Spotify akan di-inject otomatis oleh update.js -->
+<!--END_SECTION:spotify-->
+
+---
+
+🧠 *README ini diperbarui otomatis setiap 30 menit dengan lagu terakhir yang diputar di Spotify menggunakan GitHub Actions.*
