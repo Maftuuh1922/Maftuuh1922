@@ -2,6 +2,17 @@
 
 <div align="center">
   
+<a href="https://open.spotify.com/track/3lPr8ghNDBLc2uZovNyLs9" target="_blank" style="text-decoration: none;">
+  <div style="display: flex; align-items: center; margin: 10px 0; background-color: #282828; border-radius: 8px; padding: 10px; color: white;">
+    <img src="https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400" width="64" height="64" alt="Supermassive Black Hole" style="border-radius: 4px; margin-right: 15px;"/>
+    <div style="display: flex; flex-direction: column;">
+      <strong style="font-size: 16px; color: #1DB954;">Supermassive Black Hole</strong>
+      <span style="font-size: 14px; color: #b3b3b3;">Muse</span>
+      <span style="font-size: 12px; color: #b3b3b3;"><t:1751057387:R></span>
+    </div>
+  </div>
+</a>
+
 <a href="https://open.spotify.com/track/0YJ9FWWHn9EfnN0lHwbzvV" target="_blank" style="text-decoration: none;">
   <div style="display: flex; align-items: center; margin: 10px 0; background-color: #282828; border-radius: 8px; padding: 10px; color: white;">
     <img src="https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9" width="64" height="64" alt="Jigsaw Falling Into Place" style="border-radius: 4px; margin-right: 15px;"/>
@@ -42,17 +53,6 @@
       <strong style="font-size: 16px; color: #1DB954;">You Know What They Do to Guys Like Us in Prison</strong>
       <span style="font-size: 14px; color: #b3b3b3;">My Chemical Romance</span>
       <span style="font-size: 12px; color: #b3b3b3;"><t:1751056307:R></span>
-    </div>
-  </div>
-</a>
-
-<a href="https://open.spotify.com/track/2d6m2F4I7wCuAKtSsdhh83" target="_blank" style="text-decoration: none;">
-  <div style="display: flex; align-items: center; margin: 10px 0; background-color: #282828; border-radius: 8px; padding: 10px; color: white;">
-    <img src="https://i.scdn.co/image/ab67616d00001e0217f77fab7e8f18d5f9fee4a1" width="64" height="64" alt="Famous Last Words" style="border-radius: 4px; margin-right: 15px;"/>
-    <div style="display: flex; flex-direction: column;">
-      <strong style="font-size: 16px; color: #1DB954;">Famous Last Words</strong>
-      <span style="font-size: 14px; color: #b3b3b3;">My Chemical Romance</span>
-      <span style="font-size: 12px; color: #b3b3b3;"><t:1751056097:R></span>
     </div>
   </div>
 </a>
