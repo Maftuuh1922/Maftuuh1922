@@ -34,7 +34,7 @@ jobs:
           echo "SPOTIFY_ACCESS_TOKEN=$(grep access_token token.env | cut -d= -f2)" >> $GITHUB_ENV
 
       - name: 🔄 Jalankan update.cjs
-        run: node scripts/update.cjs
+        run: node scripts/update.mjs
 
       - name: 📤 Commit changes
         run: |
