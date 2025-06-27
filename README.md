@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/main/coding.gif" width="400" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/download.gif" width="400" />
 </p>
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/Hi.gif" width="30px" style="margin-right: 10px;">
+  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30px" style="margin-right: 10px;">
   Hai, Saya Muhammad Maftuh
 </h1>
+
 <h3 align="center">Full-stack Web Developer & Mahasiswa dari Indonesia 🇮🇩</h3>
 
 <p align="center">
@@ -40,7 +41,6 @@
 ---
 
 ### 📊 Statistik GitHub Saya
-
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&locale=id&theme=tokyonight&count_private=true" alt="Maftuuh1922's GitHub Stats" />
   <br/><br/>
@@ -54,4 +54,10 @@
 ### 📈 Grafik Aktivitas Kontribusi
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&theme=tokyonight&bg_color=1A1B27&hide_border=true&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF" alt="Contribution Graph" />
-p>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+</p>
