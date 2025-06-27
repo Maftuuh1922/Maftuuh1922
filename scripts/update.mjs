@@ -13,7 +13,7 @@ async function fetchSpotify() {
   const data = await res.json();
 
   if (!data.items) {
-    console.error("⚠️ Spotify response missing 'items'. Mungkin token tidak valid atau scope tidak mencakup 'user-read-recently-played'.");
+    console.error("⚠️ Respons Spotify tidak memiliki 'items'. Mungkin token tidak valid atau cakupan tidak menyertakan 'user-read-recently-played'.");
     process.exit(1);
   }
 
@@ -26,6 +26,7 @@ async function fetchSpotify() {
       artist: track.artists.map(a => a.name).join(', '),
       time: `<t:${Math.floor(timeAgo.getTime() / 1000)}:R>`,
       image: track.album.images[1]?.url || track.album.images[0]?.url,
+      url: track.external_urls.spotify
     };
   });
 }
@@ -33,26 +34,35 @@ async function fetchSpotify() {
 async function updateReadme() {
   const songs = await fetchSpotify();
 
-  // 🎨 Gaya layout kartu (berjajar horizontal)
+  // 🎨 Gaya layout kartu
   const items = songs.map(song => {
-    return `<a href="https://open.spotify.com/search/${encodeURIComponent(song.title + ' ' + song.artist)}" target="_blank">
-  <img src="${song.image}" width="100" alt="${song.title}" title="${song.title} - ${song.artist} (${song.time})"/>
+    return `
+<a href="${song.url}" target="_blank" style="text-decoration: none;">
+  <div style="display: flex; align-items: center; margin: 10px 0; background-color: #282828; border-radius: 8px; padding: 10px; color: white;">
+    <img src="${song.image}" width="64" height="64" alt="${song.title}" style="border-radius: 4px; margin-right: 15px;"/>
+    <div style="display: flex; flex-direction: column;">
+      <strong style="font-size: 16px; color: #1DB954;">${song.title}</strong>
+      <span style="font-size: 14px; color: #b3b3b3;">${song.artist}</span>
+      <span style="font-size: 12px; color: #b3b3b3;">${song.time}</span>
+    </div>
+  </div>
 </a>`;
   }).join('\n');
 
   const section = `
-<p align="center">
+<div align="center">
   ${items}
-</p>`;
+</div>`;
 
   const readme = fs.readFileSync('README.md', 'utf8');
 
   const updated = readme.replace(
-    /<!--START_SECTION:spotify-->[\s\S]*<!--END_SECTION:spotify-->/,
-    `<!--START_SECTION:spotify-->\n${section}\n<!--END_SECTION:spotify-->`
+    /[\s\S]*/,
+    `\n${section}\n`
   );
 
   fs.writeFileSync('README.md', updated);
+  console.log('✅ README diperbarui dengan data Spotify');
 }
 
 await updateReadme();
