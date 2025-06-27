@@ -1,36 +1,34 @@
-require('dotenv').config();
 const axios = require('axios');
-const fs = require('fs');
+require('dotenv').config();
 
 const {
   SPOTIFY_CLIENT_ID,
   SPOTIFY_CLIENT_SECRET,
-  SPOTIFY_REFRESH_TOKEN,
+  SPOTIFY_REFRESH_TOKEN
 } = process.env;
 
-(async () => {
-  console.log("📦 Refreshing Spotify access token...");
+async function refreshToken() {
+  const response = await axios.post('https://accounts.spotify.com/api/token',
+    new URLSearchParams({
+      grant_type: 'refresh_token',
+      refresh_token: SPOTIFY_REFRESH_TOKEN,
+    }),
+    {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        Authorization: 'Basic ' + Buffer.from(`${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`).toString('base64'),
+      },
+    }
+  );
 
-  try {
-    const response = await axios.post(
-      'https://accounts.spotify.com/api/token',
-      new URLSearchParams({
-        grant_type: 'refresh_token',
-        refresh_token: SPOTIFY_REFRESH_TOKEN,
-      }),
-      {
-        headers: {
-          'Authorization': 'Basic ' + Buffer.from(`${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`).toString('base64'),
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-      }
-    );
-
-    const accessToken = response.data.access_token;
-    console.log(`✅ Access Token: ${accessToken}`);
-    fs.writeFileSync('token.env', `access_token=${accessToken}`);
-  } catch (error) {
-    console.error("❌ Gagal refresh token:", error.response?.data || error.message);
-    process.exit(1);
+  const data = response.data;
+  console.log(`access_token=${data.access_token}`);
+  if (data.refresh_token) {
+    console.log(`refresh_token=${data.refresh_token}`);
   }
-})();
+}
+
+refreshToken().catch(err => {
+  console.error('❌ Gagal refresh token:', err.response?.data || err.message);
+  process.exit(1);
+});
