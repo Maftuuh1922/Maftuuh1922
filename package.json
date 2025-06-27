@@ -2,7 +2,7 @@
   "name": "spotify-readme-updater",
   "type": "commonjs",
   "dependencies": {
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.6.1",
     "node-fetch": "^2.6.1"
   }
 }
