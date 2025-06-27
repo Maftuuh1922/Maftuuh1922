@@ -1,0 +1,16 @@
+name: Debug Workflow Resolution
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-action-resolution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test a basic official action
+        id: hello
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: 'Maftuh'
+      - name: Report success
+        run: echo "Hello ${{ steps.hello.outputs.time }}! The test action ran successfully."
