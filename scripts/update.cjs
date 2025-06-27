@@ -1,37 +1,44 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
+import fetch from 'node-fetch';
+import fs from 'fs';
 
-const fetchSpotify = async () => {
-  const res = await fetch("https://api.spotify.com/v1/me/player/recently-played?limit=5", {
+const accessToken = process.env.SPOTIFY_ACCESS_TOKEN;
+
+async function fetchSpotify() {
+  const res = await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=5', {
     headers: {
-      Authorization: `Bearer ${process.env.SPOTIFY_ACCESS_TOKEN}`,
+      Authorization: `Bearer ${accessToken}`,
     },
   });
 
   const data = await res.json();
-
-  // ✅ Debug log untuk melihat respons API
-  console.log("Spotify API Response:", JSON.stringify(data, null, 2));
-
   if (!data.items) {
-    throw new Error("⚠️ Spotify response missing 'items'. Mungkin token tidak valid atau scope tidak mencakup 'user-read-recently-played'.");
+    console.error("⚠️ Spotify response missing 'items'. Mungkin token tidak valid atau scope tidak mencakup 'user-read-recently-played'.");
+    process.exit(1);
   }
 
   return data.items.map(item => {
     const track = item.track;
+    const timeAgo = new Date(item.played_at);
     return {
       title: track.name,
-      artist: track.artists.map(artist => artist.name).join(", "),
-      albumImageUrl: track.album.images[0].url,
-      playedAt: new Date(item.played_at).toLocaleString("id-ID", { timeZone: "Asia/Jakarta" }),
+      artist: track.artists.map(a => a.name).join(', '),
+      time: `<t:${Math.floor(timeAgo.getTime() / 1000)}:R>`,
+      image: track.album.images.pop().url,
     };
   });
-};
+}
 
-const updateReadme = async () => {
+async function updateReadme() {
   const songs = await fetchSpotify();
+  const tableRows = songs.map(song => {
+    return `  <tr>
+    <td><img src="${song.image}" width="20" /> ${song.title}</td>
+    <td>${song.artist}</td>
+    <td>${song.time}</td>
+  </tr>`;
+  }).join('\n');
 
-  const markdown = `
+  const table = `
 <table>
   <thead>
     <tr>
@@ -41,31 +48,16 @@ const updateReadme = async () => {
     </tr>
   </thead>
   <tbody>
-    ${songs
-      .map(
-        song => `
-    <tr>
-      <td><img src="${song.albumImageUrl}" width="20" /> ${song.title}</td>
-      <td>${song.artist}</td>
-      <td>${song.playedAt}</td>
-    </tr>`
-      )
-      .join("")}
+${tableRows}
   </tbody>
-</table>
-`.trim();
+</table>`;
 
-  const readme = fs.readFileSync("README.md", "utf-8");
-
-  const newReadme = readme.replace(
+  const readme = fs.readFileSync('README.md', 'utf8');
+  const updated = readme.replace(
     /<!--START_SECTION:spotify-->[\s\S]*<!--END_SECTION:spotify-->/,
-    `<!--START_SECTION:spotify-->\n\n${markdown}\n\n<!--END_SECTION:spotify-->`
+    `<!--START_SECTION:spotify-->\n${table}\n<!--END_SECTION:spotify-->`
   );
+  fs.writeFileSync('README.md', updated);
+}
 
-  fs.writeFileSync("README.md", newReadme);
-};
-
-updateReadme().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
+await updateReadme();
