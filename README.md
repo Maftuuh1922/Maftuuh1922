@@ -37,27 +37,29 @@
 
 <table width="100%" cellspacing="0" cellpadding="5">
   <tr>
-    <td rowspan="2" width="110">
-      <img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg" width="100" style="border-radius: 12px;">
+    <td rowspan="2" width="120">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/58/Rex_Orange_County_-_Best_Friend.png" width="100" style="border-radius: 12px;">
     </td>
-    <td><strong>Frank Ocean</strong></td>
+    <td><strong>Rex Orange County</strong></td>
   </tr>
   <tr>
-    <td>🎵 White Ferrari</td>
+    <td>🎵 Best Friend</td>
   </tr>
 </table>
 
+---
+
 #### 🟢 Spotify Recently Played
 
-| 🎵 Judul Lagu                      | 👤 Artis                         | 🕒 Waktu       |
-|-----------------------------------|----------------------------------|---------------|
-| <img src="https://i.scdn.co/image/ab67616d0000b27313f446f5dcaa47b52a5b5d4e" width="20"/> **RE FORRO**  | CA7RIEL & Paco Amoroso          | 59 sec ago    |
-| <img src="https://i.scdn.co/image/ab67616d0000b2731bb1d4b51975f1f3dc3744a7" width="20"/> **BABY GANGSTA** | CA7RIEL & Paco Amoroso | 5 min ago     |
-| <img src="https://i.scdn.co/image/ab67616d0000b2731bb1d4b51975f1f3dc3744a7" width="20"/> **EL ÚNICO**       | CA7RIEL & Paco Amoroso          | 7 min ago     |
-| <img src="https://i.scdn.co/image/ab67616d0000b273c25a7b7031b0d39f0ecf0f19" width="20"/> **Welcome to the Black Parade** | My Chemical Romance   | 10 min ago    |
-| <img src="https://i.scdn.co/image/ab67616d0000b273e7ddfdf9c999a7f6b70853ac" width="20"/> **Guggenheim Assemble** | Daniel Pemberton          | 36 min ago    |
+| 🎵 **Judul Lagu**                     | 👤 **Artis**                     | ⏱️ **Waktu**     |
+|--------------------------------------|----------------------------------|------------------|
+| <img src="https://i.scdn.co/image/ab67616d0000b27313f446f5dcaa47b52a5b5d4e" width="20"/> **RE FORRO**             | CA7RIEL & Paco Amoroso          | 59 sec ago       |
+| <img src="https://i.scdn.co/image/ab67616d0000b2731bb1d4b51975f1f3dc3744a7" width="20"/> **BABY GANGSTA**         | CA7RIEL & Paco Amoroso          | 5 min ago        |
+| <img src="https://i.scdn.co/image/ab67616d0000b2731bb1d4b51975f1f3dc3744a7" width="20"/> **EL ÚNICO**             | CA7RIEL & Paco Amoroso          | 7 min ago        |
+| <img src="https://i.scdn.co/image/ab67616d0000b273c25a7b7031b0d39f0ecf0f19" width="20"/> **Welcome to the Black Parade** | My Chemical Romance   | 10 min ago       |
+| <img src="https://i.scdn.co/image/ab67616d0000b273e7ddfdf9c999a7f6b70853ac" width="20"/> **Guggenheim Assemble**  | Daniel Pemberton                | 36 min ago       |
 
-[![Spotify](https://img.shields.io/badge/Lihat%20di%20Spotify-Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/6RPzonUCRExe0aGLFPLKvb?si=iQU7IiIORMO1e9l87UUUUg&pi=sJQddfp9QRCo4)
+[![Spotify](https://img.shields.io/badge/LIHAT%20DI%20SPOTIFY-PLAYLIST-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/6RPzonUCRExe0aGLFPLKvb?si=iQU7IiIORMO1e9l87UUUUg&pi=sJQddfp9QRCo4)
 
 ---
 
