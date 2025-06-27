@@ -1,36 +1,32 @@
-name: Update Spotify
+name: Spotify Update
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"  # Setiap 30 menit
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: "18"
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install
 
-      - name: Run update script
-        run: node index.js
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+    - name: Jalankan update.js
+      run: node scripts/update.js
 
-      - name: Commit changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Update Spotify section" || echo "No changes"
-          git push
+    - name: Commit changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add README.md
+        git commit -m "🎵 Update Spotify section" || echo "Nothing to commit"
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Maftuuh1922/Maftuuh1922.git
