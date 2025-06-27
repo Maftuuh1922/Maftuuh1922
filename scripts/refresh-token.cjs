@@ -1,30 +1,36 @@
-import 'dotenv/config';
-import fetch from 'node-fetch';
-import fs from 'fs';
+require('dotenv').config();
+const axios = require('axios');
+const fs = require('fs');
 
-const clientId = process.env.SPOTIFY_CLIENT_ID;
-const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
-const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
+const {
+  SPOTIFY_CLIENT_ID,
+  SPOTIFY_CLIENT_SECRET,
+  SPOTIFY_REFRESH_TOKEN,
+} = process.env;
 
-const basic = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+(async () => {
+  console.log("📦 Refreshing Spotify access token...");
 
-const response = await fetch('https://accounts.spotify.com/api/token', {
-  method: 'POST',
-  headers: {
-    Authorization: `Basic ${basic}`,
-    'Content-Type': 'application/x-www-form-urlencoded',
-  },
-  body: new URLSearchParams({
-    grant_type: 'refresh_token',
-    refresh_token: refreshToken,
-  }),
-});
+  try {
+    const response = await axios.post(
+      'https://accounts.spotify.com/api/token',
+      new URLSearchParams({
+        grant_type: 'refresh_token',
+        refresh_token: SPOTIFY_REFRESH_TOKEN,
+      }),
+      {
+        headers: {
+          'Authorization': 'Basic ' + Buffer.from(`${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`).toString('base64'),
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+      }
+    );
 
-if (!response.ok) {
-  const err = await response.json();
-  console.error(`❌ Gagal refresh token:`, err);
-  process.exit(1);
-}
-
-const data = await response.json();
-console.log(`access_token=${data.access_token}`);
+    const accessToken = response.data.access_token;
+    console.log(`✅ Access Token: ${accessToken}`);
+    fs.writeFileSync('token.env', `access_token=${accessToken}`);
+  } catch (error) {
+    console.error("❌ Gagal refresh token:", error.response?.data || error.message);
+    process.exit(1);
+  }
+})();
