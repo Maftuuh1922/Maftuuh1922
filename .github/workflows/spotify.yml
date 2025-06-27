@@ -1,4 +1,4 @@
-name: Update Spotify Top Tracks
+name: Update Spotify Playlist
 
 on:
   schedule:
@@ -7,15 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readme-with-playlist:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: rickstaa/top-tracks-unwrapped@v1
+      - uses: dephraiim/spotify-readme-action@main
         with:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-          TARGET_COMMENT: "SPOTIFY-TOP-TRACKS"
-          TIME_RANGE: "long_term"
-          TRACKS_COUNT: 5
+          spotify_client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          spotify_client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          spotify_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          playlist_id: 4Awn3g2DGRiI9I4I2n5L5u
