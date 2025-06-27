@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
-import fs from 'fs';
+const fetch = require('node-fetch');
+const fs = require('fs');
 
 const accessToken = process.env.SPOTIFY_ACCESS_TOKEN;
 
@@ -11,8 +11,10 @@ async function fetchSpotify() {
   });
 
   const data = await res.json();
+
   if (!data.items) {
     console.error("⚠️ Spotify response missing 'items'. Mungkin token tidak valid atau scope tidak mencakup 'user-read-recently-played'.");
+    console.error("Spotify API Response:", data);
     process.exit(1);
   }
 
@@ -30,6 +32,7 @@ async function fetchSpotify() {
 
 async function updateReadme() {
   const songs = await fetchSpotify();
+
   const tableRows = songs.map(song => {
     return `  <tr>
     <td><img src="${song.image}" width="20" /> ${song.title}</td>
@@ -57,7 +60,11 @@ ${tableRows}
     /<!--START_SECTION:spotify-->[\s\S]*<!--END_SECTION:spotify-->/,
     `<!--START_SECTION:spotify-->\n${table}\n<!--END_SECTION:spotify-->`
   );
+
   fs.writeFileSync('README.md', updated);
 }
 
-await updateReadme();
+updateReadme().catch(err => {
+  console.error("❌ Gagal update README:", err);
+  process.exit(1);
+});
