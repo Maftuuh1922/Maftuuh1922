@@ -16,14 +16,14 @@
 ## 🎵 Currently Playing on Spotify
 
 <div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=1db954" alt="Spotify Now Playing" width="400" />
+  <img src="https://spotify-github-profile.vercel.app/api/spotify?uid=USER_ID_ANDA&background_color=0d1117&border_color=1db954" alt="Spotify Now Playing" width="400" />
 </div>
 
 ## 🎶 Recent Tracks
 
-<!--START_SECTION:spotify-->
-<!--END_SECTION:spotify-->
-
+<div align="center">
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=USER_ID_ANDA&count=5&background_color=0d1117" alt="Spotify Recently Played" width="400" />
+</div>
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -36,9 +36,6 @@
 </div>
 
 ## ⏰ WakaTime Coding Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 ## 📈 GitHub Activity Graph
 
