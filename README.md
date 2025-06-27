@@ -40,14 +40,6 @@
 
 ---
 
-## 🎧 Currently Playing on Spotify
-
-<p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=Maftuuh1922&cover_image=true&theme=default&bar_color=1db954&bar_color_cover=false" alt="Spotify Now Playing" width="400" />
-</p>
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
