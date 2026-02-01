@@ -96,14 +96,14 @@
 
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=ffffff"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=ffffff"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
   </a>
 </p>
 
