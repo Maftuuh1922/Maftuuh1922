@@ -107,13 +107,13 @@
 <h2 align="center">⭐ Best Repositories</h2>
 
 <div align="center">
-  <a href="https://github.com/Maftuuh1922/batiklens-ai-powered-heritage-explorer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=batiklens-ai-powered-heritage-explorer&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Maftuuh1922/Maftuuh1922">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=Maftuuh1922&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
-  </a>
+  
+| 🚀 Project | 📝 Description | 🛠️ Tech |
+|------------|----------------|----------|
+| [**BatikLens AI**](https://github.com/Maftuuh1922/batiklens-ai-powered-heritage-explorer) | AI-powered Indonesian Batik pattern recognition and heritage explorer | React, TensorFlow, Node.js |
+| [**Portfolio Website**](https://github.com/Maftuuh1922/portfolio) | Personal portfolio showcasing projects and skills | Next.js, Tailwind CSS |
+| [**E-Commerce API**](https://github.com/Maftuuh1922/ecommerce-api) | RESTful API for e-commerce platform | Laravel, MySQL, Redis |
+
 </div>
 
 ---
@@ -159,7 +159,9 @@
 <h2 align="center">🏆 GitHub Trophies</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=darkhub&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+  </a>
 </p>
 
 ---
