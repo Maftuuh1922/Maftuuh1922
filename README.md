@@ -207,8 +207,4 @@
   
   ⭐️ From [Muhammad Maftuh](https://github.com/Maftuuh1922) with ❤️
   
-  <br/>
-  
-  ![Snake animation](https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/output/github-contribution-grid-snake-dark.svg)
-  
 </div>
