@@ -146,10 +146,10 @@
 
 | # | 🎵 Song | 🎤 Artist |
 |:-:|:--------|:----------|
-| 1 | Blinding Lights | The Weeknd |
-| 2 | Starboy | The Weeknd |
-| 3 | Save Your Tears | The Weeknd |
-| 4 | Die For You | The Weeknd |
+| 1 | Pluto Projector | Rex Orange County |
+| 2 | bittersweet | Madison Beer |
+| 3 | Backburner | NIKI |
+| 4 | Creep | Radiohead |
 
 </div>
 
