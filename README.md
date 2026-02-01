@@ -59,6 +59,41 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<!-- TOOLS & PLAYLIST SECTION -->
+<h2 align="center">🛠️ My Tools & 🎧 Coding Vibes</h2>
+
+<table align="center">
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">Tools I Use Daily</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=vscode,git,github,docker&theme=dark" /><br/><br/>
+        <img src="https://skillicons.dev/icons?i=figma,postman,linux,vercel&theme=dark" />
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🎧 Coding Playlist</h3>
+      <p align="center"><em>Music that keeps me focused 🎵</em></p>
+      <table align="center">
+        <tr><td>🎵</td><td><b>Pluto Projector</b></td><td>Rex Orange County</td></tr>
+        <tr><td>🎵</td><td><b>bittersweet</b></td><td>Madison Beer</td></tr>
+        <tr><td>🎵</td><td><b>Backburner</b></td><td>NIKI</td></tr>
+        <tr><td>🎵</td><td><b>Creep</b></td><td>Radiohead</td></tr>
+        <tr><td>🎵</td><td><b>Untitled</b></td><td>Rex Orange County</td></tr>
+      </table>
+      <p align="center">
+        <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax">
+          <img src="https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white"/>
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 <!-- TECH STACK -->
 <h2 align="center">🛠️ Tech Stack & Tools</h2>
 
@@ -128,34 +163,6 @@
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&custom_title=Maftuuh1922's%20Contribution%20Graph" alt="GitHub Activity Graph" width="100%"/>
-  </a>
-</p>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!-- SPOTIFY PLAYLIST -->
-<h2 align="center">🎧 Coding Playlist</h2>
-
-<p align="center">
-  <em>Music that keeps me in the zone while coding 🎵</em>
-</p>
-
-<div align="center">
-
-| # | 🎵 Song | 🎤 Artist |
-|:-:|:--------|:----------|
-| 1 | Pluto Projector | Rex Orange County |
-| 2 | bittersweet | Madison Beer |
-| 3 | Backburner | NIKI |
-| 4 | Creep | Radiohead |
-
-</div>
-
-<p align="center">
-  <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax?si=46f8vXDCQIC88IMYxX7Qlg">
-    <img src="https://img.shields.io/badge/🎧_Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist"/>
   </a>
 </p>
 
