@@ -115,20 +115,13 @@
 <h2 align="center">⭐ Featured Projects</h2>
 
 <div align="center">
-  <a href="https://github.com/Maftuuh1922/batiklens-ai-powered-heritage-explorer">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=batiklens-ai-powered-heritage-explorer&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
-  </a>
-  <a href="https://github.com/Maftuuh1922/portfolio">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=portfolio&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
-  </a>
-</div>
 
-<br/>
+| 🚀 Project | 📝 Description | 🛠️ Tech Stack |
+|:----------:|:---------------|:--------------|
+| **BatikLens AI** | AI-powered Indonesian Batik pattern recognition and heritage explorer | `React` `TensorFlow` `Node.js` |
+| **Portfolio** | Personal portfolio website showcasing projects and skills | `Next.js` `Tailwind CSS` |
+| **E-Commerce API** | RESTful API for e-commerce platform with authentication | `Laravel` `MySQL` `Redis` |
 
-<div align="center">
-  <a href="https://github.com/Maftuuh1922/ecommerce-api">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=ecommerce-api&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
-  </a>
 </div>
 
 <br/>
