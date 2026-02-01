@@ -1,213 +1,221 @@
-<!-- HEADER BANNER - Gambar 1: Programmer malam + bintang (landscape) -->
+<!-- HEADER BANNER -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/header-night-coding.png" width="100%" alt="Night Coding"/>
 </p>
 
+<!-- INTRO SECTION -->
 <div align="center">
   
-  # 👨‍💻 Muhammad Maftuh
+  # Assalamualaikum, I'm Muhammad Maftuh! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   
-  **Full-Stack Developer** | Indonesia 🇮🇩
-  
-  *"Coding through the night, building dreams byte by byte"*
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF6B6B&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Full-Stack+Developer+%7C+Indonesia+%F0%9F%87%AE%F0%9F%87%A9;Coding+through+the+night%2C+building+dreams+byte+by+byte" alt="Typing SVG" />
+  </a>
   
 </div>
 
-<!-- GREETING -->
-<h2 align="center">Assalamualaikum 👋 I'm Maftuh</h2>
-
-<p align="center">
-  <em>🎓 I'm currently pursuing my journey as a Full-Stack Developer, actively working on improving my programming skills and exploring various areas of web development. My academic and personal learning journey is focused on building a solid foundation in software development while actively exploring emerging technologies. I am particularly passionate about React, Node.js, and Machine Learning.</em>
-</p>
-
 <!-- PROFILE BADGES -->
 <p align="center">
-  <a href="https://github.com/Maftuuh1922"><img src="https://komarev.com/ghpvc/?username=Maftuuh1922&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" /></a>
-  <a href="https://github.com/Maftuuh1922?tab=repositories"><img src="https://img.shields.io/github/stars/Maftuuh1922?label=Stars&style=flat-square&color=f1c40f" alt="Stars"/></a>
-  <a href="https://github.com/Maftuuh1922?tab=followers"><img src="https://img.shields.io/github/followers/Maftuuh1922?label=Followers&style=flat-square&color=3498db" alt="Followers"/></a>
+  <a href="https://github.com/Maftuuh1922"><img src="https://komarev.com/ghpvc/?username=Maftuuh1922&label=Profile%20Views&color=ff6b6b&style=for-the-badge" alt="Profile Views" /></a>
+  <a href="https://github.com/Maftuuh1922?tab=repositories"><img src="https://img.shields.io/github/stars/Maftuuh1922?label=Stars&style=for-the-badge&color=f1c40f&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/Maftuuh1922?tab=followers"><img src="https://img.shields.io/github/followers/Maftuuh1922?label=Followers&style=for-the-badge&color=3498db&logo=github" alt="Followers"/></a>
 </p>
 
----
+<br/>
 
 <!-- ABOUT ME SECTION -->
-<h3>👨‍💻 About Me</h3>
+<img align="right" alt="My Workspace" width="340" src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/workspace-pixel.png"/>
 
-<!-- Gambar 2: Pixel workspace dengan tourbox (kotak) -->
-<img align="right" alt="My Workspace" width="320" src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/workspace-pixel.png"/>
+### 👨‍💻 &nbsp;About Me
 
-- 🔭 I am currently working on and developing my **programming skills**
-- 💻 I worked on **React, Node.js, Laravel** and experienced in **MVC Architecture**
-- 🛠️ Skills I acquired in programming languages such as **JavaScript, PHP, Python, SQL**
-- 🤖 Interest in **Artificial Intelligence, Machine Learning, Deep Learning, Data Science**
-- 🌱 Currently learning **TypeScript, Next.js, TensorFlow**
-- ✨ I only like **perfection**
+🎓 &nbsp;Full-Stack Developer passionate about crafting elegant digital solutions.\
+💻 &nbsp;Building with **React, Node.js, Laravel** | Experienced in **MVC Architecture**\
+🛠️ &nbsp;Skilled in **JavaScript, PHP, Python, SQL**\
+🤖 &nbsp;Fascinated by **AI, Machine Learning, Deep Learning, Data Science**\
+🌱 &nbsp;Currently exploring **TypeScript, Next.js, TensorFlow**\
+✨ &nbsp;Perfectionist by nature, clean code enthusiast\
+🇮🇩 &nbsp;Based in **Indonesia**
 
 <br clear="right"/>
 
-<!-- CONNECT WITH ME -->
-<h3>🔗 Connect with me:</h3>
+### 🔗 &nbsp;Connect With Me
 
-<p align="left">
+<p align="center">
   <a href="mailto:maftuuh@example.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>&nbsp;
+  </a>
   <a href="https://linkedin.com/in/maftuuh" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>&nbsp;
+  </a>
   <a href="https://instagram.com/maftuuh" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>&nbsp;
+  </a>
   <a href="https://github.com/Maftuuh1922" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
----
+<br/>
 
-<!-- GITHUB STATUS -->
-<h2 align="center">📊 GitHub Status</h2>
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff"/>
-  &nbsp;&nbsp;
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=ffffff"/>
-</div>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
-</p>
-
----
-
-<!-- LANGUAGES & TOOLS -->
-<h2 align="center">🛠️ Languages & Tools I Have Placed My Hands On</h2>
-
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/></a>
-</p>
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/></a>
-</p>
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/></a>
-</p>
-
----
-
-<!-- BEST REPOSITORIES -->
-<h2 align="center">⭐ Best Repositories</h2>
-
-<div align="center">
-  
-| 🚀 Project | 📝 Description | 🛠️ Tech |
-|------------|----------------|----------|
-| [**BatikLens AI**](https://github.com/Maftuuh1922/batiklens-ai-powered-heritage-explorer) | AI-powered Indonesian Batik pattern recognition and heritage explorer | React, TensorFlow, Node.js |
-| [**Portfolio Website**](https://github.com/Maftuuh1922/portfolio) | Personal portfolio showcasing projects and skills | Next.js, Tailwind CSS |
-| [**E-Commerce API**](https://github.com/Maftuuh1922/ecommerce-api) | RESTful API for e-commerce platform | Laravel, MySQL, Redis |
-
-</div>
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- TECH STACK -->
-<h2 align="center">💻 Tech Stack</h2>
+<h2 align="center">🛠️ Tech Stack & Tools</h2>
 
+<h4 align="center">👨‍💻 Programming Languages</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=js,ts,php,python,html,css" />
 </p>
 
----
+<h4 align="center">⚡ Frameworks & Libraries</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind,bootstrap" />
+</p>
+
+<h4 align="center">🗄️ Databases & Cloud</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,redis,vercel" />
+</p>
+
+<h4 align="center">🔧 Tools & Platforms</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman" />
+</p>
+
+<h4 align="center">🤖 AI & Machine Learning</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+</p>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- GITHUB STATS -->
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<p align="center">
+  <a href="https://github.com/Maftuuh1922">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=ffffff"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Maftuuh1922">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
+  </a>
+</p>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- FEATURED PROJECTS -->
+<h2 align="center">⭐ Featured Projects</h2>
+
+<div align="center">
+  <a href="https://github.com/Maftuuh1922/batiklens-ai-powered-heritage-explorer">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=batiklens-ai-powered-heritage-explorer&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
+  </a>
+  <a href="https://github.com/Maftuuh1922/portfolio">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=portfolio&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/Maftuuh1922/ecommerce-api">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maftuuh1922&repo=ecommerce-api&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=ffffff" />
+  </a>
+</div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- ACTIVITY GRAPH -->
 <h2 align="center">📈 Contribution Graph</h2>
 
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&custom_title=Maftuuh1922's%20Contribution%20Graph" alt="GitHub Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&custom_title=Maftuuh1922's%20Contribution%20Graph" alt="GitHub Activity Graph" width="100%"/>
   </a>
 </p>
 
----
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- TROPHY -->
 <h2 align="center">🏆 GitHub Trophies</h2>
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=darkhub&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="GitHub Trophies"/>
   </a>
 </p>
 
----
+<br/>
 
-<!-- SUPPORT ME -->
-<h2 align="center">☕ Support Me</h2>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- SUPPORT -->
+<h2 align="center">☕ Support My Work</h2>
+
+<p align="center">
+  <em>If you find my projects helpful, consider buying me a coffee! ☕</em>
+</p>
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/maftuuh" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" />
   </a>
+  <a href="https://ko-fi.com/maftuuh" target="_blank">
+    <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" height="50" alt="Ko-Fi"/>
+  </a>
 </p>
 
----
+<br/>
 
-<!-- FOOTER - Gambar 3: Pixel room jam 01:17 (landscape) -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- FOOTER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/footer-late-night.png" width="100%" alt="Late Night Coding"/>
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/footer-late-night.gif" width="100%" alt="Late Night Coding"/>
 </p>
 
 <div align="center">
   
-  ### 💼 Open for Opportunities
+  ## 💼 Open for Opportunities
   
-  *Let's connect and build something amazing together!*
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FF6B6B&center=true&vCenter=true&width=500&lines=Let's+connect+and+build+something+amazing+together!" alt="Typing SVG" />
+  </a>
   
-  [![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/maftuuh)
+  <br/><br/>
+  
+  <a href="mailto:maftuuh@example.com">
+    <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://linkedin.com/in/maftuuh" target="_blank">
+    <img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Maftuuh1922" target="_blank">
+    <img src="https://img.shields.io/badge/Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  
+  <br/><br/>
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff6b6b&height=100&section=footer"/>
+  
+  <br/>
   
   ⭐️ From [Muhammad Maftuh](https://github.com/Maftuuh1922) with ❤️
   
+  <br/>
+  
+  ![Snake animation](https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/output/github-contribution-grid-snake-dark.svg)
+  
 </div>
-
-<!-- SNAKE ANIMATION - Optional: Perlu setup GitHub Actions -->
-<!--
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</p>
--->
