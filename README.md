@@ -59,19 +59,35 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<!-- TOOLS & PLAYLIST SECTION -->
-<h2 align="center">🛠️ My Tools & 🎧 Coding Vibes</h2>
+<!-- TECH STACK & PLAYLIST SECTION -->
+<h2 align="center">🛠️ Tech Stack & 🎧 Coding Vibes</h2>
 
 <table align="center">
   <tr>
-    <td valign="top" width="50%">
-      <h3 align="center">Tools I Use Daily</h3>
+    <td valign="top" width="55%">
+      <h3 align="center">💻 Tech Stack</h3>
+      <p align="center"><b>👨‍💻 Languages</b></p>
       <p align="center">
-        <img src="https://skillicons.dev/icons?i=vscode,git,github,docker&theme=dark" /><br/><br/>
-        <img src="https://skillicons.dev/icons?i=figma,postman,linux,vercel&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=js,ts,php,python,html,css&theme=dark" />
+      </p>
+      <p align="center"><b>⚡ Frameworks</b></p>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind&theme=dark" />
+      </p>
+      <p align="center"><b>🗄️ Database & Cloud</b></p>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,redis,vercel&theme=dark" />
+      </p>
+      <p align="center"><b>🔧 Tools</b></p>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman&theme=dark" />
+      </p>
+      <p align="center"><b>🤖 AI & ML</b></p>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
       </p>
     </td>
-    <td valign="top" width="50%">
+    <td valign="top" width="45%">
       <h3 align="center">🎧 Coding Playlist</h3>
       <p align="center"><em>Music that keeps me focused 🎵</em></p>
       <table align="center">
@@ -80,47 +96,17 @@
         <tr><td>🎵</td><td><b>Backburner</b></td><td>NIKI</td></tr>
         <tr><td>🎵</td><td><b>Creep</b></td><td>Radiohead</td></tr>
         <tr><td>🎵</td><td><b>Untitled</b></td><td>Rex Orange County</td></tr>
+        <tr><td>🎵</td><td><b>Every Way</b></td><td>Rex Orange County</td></tr>
       </table>
+      <br/>
       <p align="center">
         <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax">
-          <img src="https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white"/>
+          <img src="https://img.shields.io/badge/🎧_Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white"/>
         </a>
       </p>
     </td>
   </tr>
 </table>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!-- TECH STACK -->
-<h2 align="center">🛠️ Tech Stack & Tools</h2>
-
-<h4 align="center">👨‍💻 Programming Languages</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,php,python,html,css" />
-</p>
-
-<h4 align="center">⚡ Frameworks & Libraries</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind,bootstrap" />
-</p>
-
-<h4 align="center">🗄️ Databases & Cloud</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,redis,vercel" />
-</p>
-
-<h4 align="center">🔧 Tools & Platforms</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman" />
-</p>
-
-<h4 align="center">🤖 AI & Machine Learning</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-</p>
 
 <br/>
 
