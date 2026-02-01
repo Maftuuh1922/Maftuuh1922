@@ -103,7 +103,7 @@
 
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
-    <img src="https://streak-stats.demolab.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.onrender.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
   </a>
 </p>
 
