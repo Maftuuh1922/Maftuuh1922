@@ -101,12 +101,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Maftuuh1922">
-    <img src="https://github-readme-streak-stats.onrender.com/?user=Maftuuh1922&theme=radical&hide_border=true&background=0d1117&stroke=ff6b6b&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ffffff" alt="GitHub Streak" />
-  </a>
-</p>
-
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -134,19 +128,6 @@
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&custom_title=Maftuuh1922's%20Contribution%20Graph" alt="GitHub Activity Graph" width="100%"/>
-  </a>
-</p>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!-- TROPHY -->
-<h2 align="center">🏆 GitHub Trophies</h2>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Maftuuh1922&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="GitHub Trophies"/>
   </a>
 </p>
 
