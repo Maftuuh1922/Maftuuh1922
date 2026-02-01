@@ -148,7 +148,7 @@
 
 <p align="center">
   <a href="https://github.com/Maftuuh1922">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=39d353&line=39d353&point=ffffff&area=true&hide_border=true&custom_title=Maftuuh1922's%20Contribution%20Graph" alt="GitHub Activity Graph" width="100%"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maftuuh1922&bg_color=0d1117&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&custom_title=Maftuuh1922's%20Contribution%20Graph" alt="GitHub Activity Graph" width="100%"/>
   </a>
 </p>
 
