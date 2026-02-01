@@ -183,7 +183,7 @@
 
 <!-- FOOTER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/footer-late-night.gif" width="100%" alt="Late Night Coding"/>
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/footer-retro-gaming.png" width="100%" alt="Retro Gaming Setup"/>
 </p>
 
 <div align="center">
