@@ -135,6 +135,29 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<!-- SPOTIFY PLAYLIST -->
+<h2 align="center">🎧 Coding Playlist</h2>
+
+<p align="center">
+  <em>Music that keeps me in the zone while coding 🎵</em>
+</p>
+
+<p align="center">
+  <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax?si=46f8vXDCQIC88IMYxX7Qlg">
+    <img src="https://img.shields.io/badge/Spotify-My_Coding_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax?si=46f8vXDCQIC88IMYxX7Qlg">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31r7p5qgkmxsitfk5nwfdo57xfra&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=ff6b6b&bar_color_cover=true" alt="Spotify Playlist"/>
+  </a>
+</p>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 <!-- SUPPORT -->
 <h2 align="center">☕ Support My Work</h2>
 
