@@ -142,15 +142,20 @@
   <em>Music that keeps me in the zone while coding 🎵</em>
 </p>
 
-<p align="center">
-  <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax?si=46f8vXDCQIC88IMYxX7Qlg">
-    <img src="https://img.shields.io/badge/Spotify-My_Coding_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist"/>
-  </a>
-</p>
+<div align="center">
+
+| # | 🎵 Song | 🎤 Artist |
+|:-:|:--------|:----------|
+| 1 | Blinding Lights | The Weeknd |
+| 2 | Starboy | The Weeknd |
+| 3 | Save Your Tears | The Weeknd |
+| 4 | Die For You | The Weeknd |
+
+</div>
 
 <p align="center">
   <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax?si=46f8vXDCQIC88IMYxX7Qlg">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31r7p5qgkmxsitfk5nwfdo57xfra&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=ff6b6b&bar_color_cover=true" alt="Spotify Playlist"/>
+    <img src="https://img.shields.io/badge/🎧_Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist"/>
   </a>
 </p>
 
