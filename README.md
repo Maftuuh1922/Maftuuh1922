@@ -1,7 +1,17 @@
-<!-- HEADER BANNER - Upload gambar ini ke repo Anda: assets/header-banner.png -->
+<!-- HEADER BANNER - Gambar 1: Programmer malam + bintang (landscape) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=150&section=header&text=Muhammad%20Maftuh&fontSize=40&fontColor=fff&fontAlignY=45&desc=Full-Stack%20Developer%20|%20Indonesia%20🇮🇩&descAlignY=70&descSize=16"/>
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/header-night-coding.png" width="100%" alt="Night Coding"/>
 </p>
+
+<div align="center">
+  
+  # 👨‍💻 Muhammad Maftuh
+  
+  **Full-Stack Developer** | Indonesia 🇮🇩
+  
+  *"Coding through the night, building dreams byte by byte"*
+  
+</div>
 
 <!-- GREETING -->
 <h2 align="center">Assalamualaikum 👋 I'm Maftuh</h2>
@@ -22,7 +32,8 @@
 <!-- ABOUT ME SECTION -->
 <h3>👨‍💻 About Me</h3>
 
-<img align="right" alt="Coding" width="300" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+<!-- Gambar 2: Pixel workspace dengan tourbox (kotak) -->
+<img align="right" alt="My Workspace" width="320" src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/workspace-pixel.png"/>
 
 - 🔭 I am currently working on and developing my **programming skills**
 - 💻 I worked on **React, Node.js, Laravel** and experienced in **MVC Architecture**
@@ -177,14 +188,22 @@
 
 ---
 
-<!-- FOOTER -->
+<!-- FOOTER - Gambar 3: Pixel room jam 01:17 (landscape) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer"/>
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/footer-late-night.png" width="100%" alt="Late Night Coding"/>
 </p>
 
-<p align="center">
-  <em>⭐️ From <a href="https://github.com/Maftuuh1922">Muhammad Maftuh</a> with ❤️</em>
-</p>
+<div align="center">
+  
+  ### 💼 Open for Opportunities
+  
+  *Let's connect and build something amazing together!*
+  
+  [![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/maftuuh)
+  
+  ⭐️ From [Muhammad Maftuh](https://github.com/Maftuuh1922) with ❤️
+  
+</div>
 
 <!-- SNAKE ANIMATION - Optional: Perlu setup GitHub Actions -->
 <!--
