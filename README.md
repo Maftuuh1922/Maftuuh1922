@@ -95,12 +95,16 @@
 <td valign="top" width="45%">
 <h3 align="center">🎧 Coding Playlist</h3>
 <p align="center"><em>Music that keeps me focused 🎵</em></p>
-<!-- SPOTIFY WIDGET -->
-<p align="center">
-<a href="https://open.spotify.com/user/maftuuh">
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=maftuuh&cover_image=true&theme=default&show_offline=false&background_color=0d1117&color=888888&bar_color=555555&border_radius=25" width="300" alt="Spotify Currently Playing"/>
-</a>
-</p>
+<br/>
+<table align="center">
+<tr><td>🎵</td><td><b>Pluto Projector</b></td><td>Rex Orange County</td></tr>
+<tr><td>🎵</td><td><b>bittersweet</b></td><td>Madison Beer</td></tr>
+<tr><td>🎵</td><td><b>Backburner</b></td><td>NIKI</td></tr>
+<tr><td>🎵</td><td><b>Creep</b></td><td>Radiohead</td></tr>
+<tr><td>🎵</td><td><b>Untitled</b></td><td>Rex Orange County</td></tr>
+<tr><td>🎵</td><td><b>Every Way</b></td><td>Rex Orange County</td></tr>
+</table>
+<br/>
 <p align="center">
 <a href="https://open.spotify.com/playlist/1NH5dNIuXO47YRQyxL4vax">
 <img src="https://img.shields.io/badge/🎧_Listen_to_My_Playlist-333333?style=flat&logo=spotify&logoColor=white"/>
