@@ -22,7 +22,7 @@
 <table>
 <tr>
 <td valign="top">
-<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/ascii-avatar-color.png" width="300"/>
+<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/ascii-avatar2.png" width="300"/>
 </td>
 <td valign="top">
 
