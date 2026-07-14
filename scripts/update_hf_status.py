@@ -35,7 +35,20 @@ def fetch_spaces(username: str) -> list[dict]:
     url = f"https://huggingface.co/api/spaces?author={username}"
     r = requests.get(url, timeout=20)
     r.raise_for_status()
-    return r.json()
+    spaces = r.json()
+    
+    # Fetch detail untuk tiap space agar mendapatkan info 'runtime' (status SLEEPING/RUNNING dsb)
+    for s in spaces:
+        space_id = s.get("id")
+        if space_id:
+            try:
+                detail_r = requests.get(f"https://huggingface.co/api/spaces/{space_id}", timeout=10)
+                if detail_r.status_code == 200:
+                    s["runtime"] = detail_r.json().get("runtime", {})
+            except Exception:
+                pass
+                
+    return spaces
 
 
 def fetch_models(username: str) -> list[dict]:

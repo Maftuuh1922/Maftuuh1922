@@ -186,17 +186,17 @@
 ```console
 maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
 [+] Fetching Hugging Face activity... Done!
-[+] Last updated: 2026-07-14 10:04 UTC
+[+] Last updated: 2026-07-14 10:07 UTC
 
 🚀 SPACES
 +---------------------------+-------------+-------+--------+
 | Name                      | Status      | Likes | SDK    |
 +---------------------------+-------------+-------+--------+
-| batik-classifier          | ⚪ UNKNOWN   |     1 | docker |
-| meme-emotion-demo         | ⚪ UNKNOWN   |     0 | gradio |
-| wastra-yolo-api           | ⚪ UNKNOWN   |     0 | docker |
-| wastra-lora-api           | ⚪ UNKNOWN   |     0 | docker |
-| wastra-ai                 | ⚪ UNKNOWN   |     0 | gradio |
+| batik-classifier          | 😴 Sleeping  |     1 | docker |
+| meme-emotion-demo         | 😴 Sleeping  |     0 | gradio |
+| wastra-yolo-api           | 😴 Sleeping  |     0 | docker |
+| wastra-lora-api           | 😴 Sleeping  |     0 | docker |
+| wastra-ai                 | 🟢 Running   |     0 | gradio |
 +---------------------------+-------------+-------+--------+
 
 🧠 MODELS
