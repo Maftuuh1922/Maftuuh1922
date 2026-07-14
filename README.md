@@ -183,7 +183,29 @@
 <!-- 🔄 Status Spaces & Models di bawah ini diupdate OTOMATIS oleh GitHub Actions -->
 <!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
 <!-- HF-ACTIVITY:START -->
-<sub>🔄 Belum pernah diperbarui — jalankan workflow "Update HF Activity" pertama kali (tab Actions → Run workflow)</sub>
+<sub>🔄 Terakhir diperbarui otomatis: 2026-07-14 09:57 UTC</sub>
+
+**🚀 Spaces**
+
+| Space | Status | Likes | SDK |
+|:------|:-------|:-----:|:----|
+| [batik-classifier](https://huggingface.co/spaces/maftuh-main/batik-classifier) | ⚪ UNKNOWN | 1 | `docker` |
+| [meme-emotion-demo](https://huggingface.co/spaces/maftuh-main/meme-emotion-demo) | ⚪ UNKNOWN | 0 | `gradio` |
+| [wastra-yolo-api](https://huggingface.co/spaces/maftuh-main/wastra-yolo-api) | ⚪ UNKNOWN | 0 | `docker` |
+| [wastra-lora-api](https://huggingface.co/spaces/maftuh-main/wastra-lora-api) | ⚪ UNKNOWN | 0 | `docker` |
+| [wastra-ai](https://huggingface.co/spaces/maftuh-main/wastra-ai) | ⚪ UNKNOWN | 0 | `gradio` |
+
+**🧠 Models**
+
+| Model | Downloads | Likes |
+|:------|:---------:|:-----:|
+| [meme-emotion-detector](https://huggingface.co/maftuh-main/meme-emotion-detector) | 3 | 0 |
+| [wastra-yolov8-detector](https://huggingface.co/maftuh-main/wastra-yolov8-detector) | 0 | 0 |
+| [batik-generator-lora](https://huggingface.co/maftuh-main/batik-generator-lora) | 0 | 0 |
+| [batik-qwen1.5b-adapter](https://huggingface.co/maftuh-main/batik-qwen1.5b-adapter) | 0 | 0 |
+| [batik-qwen1.5b-merged](https://huggingface.co/maftuh-main/batik-qwen1.5b-merged) | 732 | 0 |
+| [batik-qwen1.5b-adapter-v2](https://huggingface.co/maftuh-main/batik-qwen1.5b-adapter-v2) | 0 | 0 |
+| [batik-qwen1.5b-adapter-v3](https://huggingface.co/maftuh-main/batik-qwen1.5b-adapter-v3) | 0 | 0 |
 <!-- HF-ACTIVITY:END -->
 
 <div align="center">
