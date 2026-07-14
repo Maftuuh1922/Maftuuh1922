@@ -178,16 +178,41 @@
 
 <div align="center">
 
-**🧩 Spaces**
+<details>
+<summary><b>🖥️ Wastra Yolo Gradio — Chat about Indonesian Batik culture with an expert AI <i>(Click to expand)</i></b></summary>
+<br/>
+<p>🟢 <b>Running</b> · Gradio Space powered by <b>Wastra.ai</b> (fine-tuned Qwen2.5-1.5B). Ask it anything about Nusantara batik motifs, history, and philosophy.</p>
+<p><a href="https://huggingface.co/spaces/maftuh-main/wastra-ai">→ Open Space</a></p>
+</details>
+<br/>
 
-| Space | Description | Status |
-|:------|:-------------|:------:|
-| [**Wastra Yolo Gradio**](https://huggingface.co/spaces/maftuh-main/wastra-ai) 🖥️ | Chat about Indonesian Batik culture with an expert AI | 🟢 Running |
-| [**Wastra Yolo Api**](https://huggingface.co/spaces/maftuh-main) 👀 | Detect objects in images with YOLOv8 API | 😴 Sleeping |
-| [**Wastra Lora Api**](https://huggingface.co/spaces/maftuh-main) 🎨 | Generate custom batik images using Stable Diffusion + LoRA | 😴 Sleeping |
-| [**Batik Classifier**](https://huggingface.co/spaces/maftuh-main) 🎨 | Enhance and analyze batik images with AI-powered tools | 😴 Sleeping |
+<details>
+<summary><b>👀 Wastra Yolo Api — Detect objects in images with YOLOv8 API <i>(Click to expand)</i></b></summary>
+<br/>
+<p>😴 <b>Sleeping</b> (spins up on request) · Serves the BatikLens YOLOv8 batik motif detector as an API endpoint.</p>
+<p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
+</details>
+<br/>
 
-**🧠 Models & Datasets**
+<details>
+<summary><b>🎨 Wastra Lora Api — Generate custom images using Stable Diffusion and LoRA <i>(Click to expand)</i></b></summary>
+<br/>
+<p>😴 <b>Sleeping</b> (spins up on request) · Text-to-image generation fine-tuned on batik motifs via a Stable Diffusion LoRA adapter.</p>
+<p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
+</details>
+<br/>
+
+<details>
+<summary><b>🖌️ Batik Classifier — Enhance and analyze images with AI-powered tools <i>(Click to expand)</i></b></summary>
+<br/>
+<p>😴 <b>Sleeping</b> (spins up on request) · Classifies and analyzes batik motif images using AI-powered enhancement tools.</p>
+<p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
+</details>
+<br/>
+
+<details>
+<summary><b>🧠 Models & Datasets <i>(Click to expand)</i></b></summary>
+<br/>
 
 | Repository | Type |
 |:-----------|:-----|
@@ -195,6 +220,8 @@
 | [`maftuh-main/batik-qwen1.5b-merged`](https://huggingface.co/maftuh-main/batik-qwen1.5b-merged) | Model (merged, Text Generation) |
 | [`maftuh-main/wastra-yolov8-detector`](https://huggingface.co/maftuh-main/wastra-yolov8-detector) | Model (YOLOv8) |
 | [`maftuh-main/dataset-batik-trl-sft`](https://huggingface.co/datasets/maftuh-main/dataset-batik-trl-sft) | Dataset (3M rows) |
+
+</details>
 
 </div>
 
