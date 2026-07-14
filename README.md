@@ -303,30 +303,23 @@ maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
 <!-- HF-ACTIVITY:END -->
 <br/>
 
-<!-- INTERACTIVE FAQ SECTION (COLLAPSIBLE) -->
-<h2 align="center" id="-interactive-faq">💬 Interactive Q&A</h2>
+<!-- TERMINAL STYLE DEV LOG SECTION -->
+<h2 align="center" id="-dev-log">👨‍💻 Dev Log & Status</h2>
 
-<div align="center">
-<details>
-<summary><b>🤔 What am I currently working on? <i>(Click to expand)</i></b></summary>
-<br/>
-<p>I'm actively building <b>openmed-id</b> for Indonesian clinical NLP, and training <b>Wastra.ai</b> — a batik cultural expert LLM — as part of the <b>BatikLens</b> ecosystem.</p>
-</details>
-<br/>
+```console
+maftuh@workspace:~$ cat current_focus.txt
+[+] Actively building openmed-id for Indonesian clinical NLP
+[+] Training Wastra.ai (batik cultural expert LLM) for BatikLens
 
-<details>
-<summary><b>🛠️ What is my favorite tech stack right now? <i>(Click to expand)</i></b></summary>
-<br/>
-<p>I'm loving <b>Python + Hugging Face</b> for ML/NLP work, and <b>Next.js + Flask</b> for shipping AI-powered web apps.</p>
-</details>
-<br/>
+maftuh@workspace:~$ echo $FAV_TECH_STACK
+> Python + Hugging Face (for ML & NLP)
+> Next.js + Flask (for AI-powered web apps)
 
-<details>
-<summary><b>🤝 Am I open for collaborations? <i>(Click to expand)</i></b></summary>
-<br/>
-<p><b>Absolutely!</b> I'm always open to discussing Indonesian AI/NLP research, hackathons, or open-source contributions. Drop me an email!</p>
-</details>
-</div>
+maftuh@workspace:~$ ./collaborate.sh --check
+[STATUS] OPEN FOR COLLABORATION
+[TOPICS] Indonesian AI/NLP research, Hackathons, Open-source
+[ACTION] Feel free to drop me an email!
+```
 
 <br/>
 
