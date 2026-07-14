@@ -12,13 +12,41 @@
 <a href="#-interactive-faq"><img src="https://img.shields.io/badge/💬_FAQ-777777?style=flat&logoColor=white" alt="FAQ"/></a>
 </p>
 
-<!-- INTRO SECTION -->
+<!-- NEOFETCH-STYLE INTRO -->
 <div align="center">
+
 # Assalamualaikum, I'm Muhammad Maftuh! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=888888&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Full-Stack+Developer+%7C+Indonesia+%F0%9F%87%AE%F0%9F%87%A9;Coding+through+the+night%2C+building+dreams+byte+by+byte" alt="Typing SVG" />
-</a>
+
 </div>
+
+```
+                   .......                       maftuh@cachyos
+               ';=**==*##**++==+;'.              ─────────────────
+            -+*%#######%#***#**%%%#:             OS: ......... CachyOS Linux x86_64
+          `=%%#**########**#-;-'%##@=            Kernel: ..... Linux (CachyOS optimized)
+         '+*%**#######*##***=*-;#%%##+           WM: ......... Hyprland (Wayland)
+       .=%:=%###***#######**#+;%%%%%#%:          Shell: ...... fish
+      `%%%+-#%#*##############*%%%%%%##          Terminal: ... kitty / foot
+      =%%%*=*####%%%%#*%#*==%%%####%##%:         Editor: ..... Neovim / VS Code
+      *####%*=*%#*=;%%#*###*###########*
+     .;#######%*``=;`'=#%%##############`        Role: ....... D3 Informatics Eng. student @ ULBI
+     '=%#####*+'..:`  `'::-+*#%%##%%####.        Intern: ..... Quality Engineer @ PT Primalogic
+     +*+%##%;. ...    `.    .';*%#:-';%+         Focus: ...... Clinical NLP, Computer Vision, LLM Fine-tuning
+     #- #*#%+'=+-`-` ..``````..;%;-:. ``         Languages: .. Python, TypeScript, C#, SQL
+     ;; +**%#`;@#  - -`+*#-'-' '%+::'`  ``
+      '.*%=%*+ --  - '  =#`    '#;*+''```''.     Now.Building: openmed-id (Indonesian clinical NLP)
+       `-.:*:-:. .'.  '...   .`'`:=-.-'``'`'`    Now.Training:  Wastra.ai (batik cultural expert LLM)
+           ``  '-`.    ...`':=;-::`. -'''...'    Now.Shipping:  BatikLens (YOLOv8 batik motif detector)
+             '---::`.--''``.';''`';-`--..``.-.
+           '-';-:-:;'```-``-::--';'.`'-`````'.   Contact: ..... github.com/Maftuuh1922
+          --.`+:::-:-'``.';-`---;-..``'`````'
+        .-'```:-:`   `-`-;--'-'--:':-''````'.
+       `:`'''.````'  .-.`;''':''`--:'    .
+        ''`..````.''-'`.`:--'''-` '-'
+         -'.```.``::;...`:-'':`-`.`::
+          ``'':-;;--:`'``:''':--''''.
+              .````..    '''''``.
+```
 
 <!-- PROFILE BADGES -->
 <p align="center">
@@ -31,17 +59,15 @@
 
 <!-- ABOUT ME SECTION -->
 <h3 id="-about-me">👨‍💻 &nbsp;About Me</h3>
-<img align="right" alt="My Workspace" width="340" src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/workspace-pixel.png"/>
 
-🎓 &nbsp;Full-Stack Developer passionate about crafting elegant digital solutions.\
-💻 &nbsp;Building with **React, Node.js, Laravel** | Experienced in **MVC Architecture**\
-🛠️ &nbsp;Skilled in **JavaScript, PHP, Python, SQL**\
-🤖 &nbsp;Fascinated by **AI, Machine Learning, Deep Learning, Data Science**\
-🌱 &nbsp;Currently exploring **TypeScript, Next.js, TensorFlow**\
-✨ &nbsp;Perfectionist by nature, clean code enthusiast\
-🇮🇩 &nbsp;Based in **Indonesia**
+🎓 &nbsp;D3 Informatics Engineering student at **ULBI**, currently interning as a **Quality Engineer** at PT Primalogic Global Technology.\
+🤖 &nbsp;Building **openmed-id** — an Indonesian clinical NLP package combining rule-based PII de-identification with zero-shot medical NER.\
+🎨 &nbsp;Fine-tuning **Wastra.ai**, a batik cultural expert LLM (Qwen2.5-1.5B, QLoRA), as part of the **BatikLens** project.\
+🛠️ &nbsp;Comfortable across **Python, TypeScript, C#, SQL** — from YOLOv8 training pipelines to ASP.NET MVC systems.\
+🐧 &nbsp;Daily driver: **CachyOS (Arch-based) + Hyprland**, fish shell, kitty/foot terminal.\
+🇮🇩 &nbsp;Based in **Indonesia** — passionate about Indonesian cultural & healthcare AI applications.
 
-<br clear="right"/>
+<br/>
 
 ### 🔗 &nbsp;Connect With Me
 
@@ -73,23 +99,23 @@
 <h3 align="center">💻 Tech Stack</h3>
 <p align="center"><b>👨‍💻 Languages</b></p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,php,python,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,ts,js,cs,html,css&theme=dark" />
 </p>
 <p align="center"><b>⚡ Frameworks</b></p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,flask,dotnet,tailwind&theme=dark" />
 </p>
 <p align="center"><b>🗄️ Database & Cloud</b></p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,redis,vercel&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mysql,mssql,huggingface,vercel&theme=dark" />
 </p>
 <p align="center"><b>🔧 Tools</b></p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,neovim,linux,arch&theme=dark" />
 </p>
 <p align="center"><b>🤖 AI & ML</b></p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
 </p>
 </td>
 <td valign="top" width="45%">
@@ -128,7 +154,6 @@
 </a>
 </p>
 
-<!-- DYNAMIC PROGRAMMING QUOTE -->
 <p align="center">
 <a href="https://github.com/piyushsuthar/github-readme-quotes">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&bg_color=0d1117&text_color=aaaaaa&border_radius=20" alt="Random Quote"/>
@@ -146,9 +171,9 @@
 
 | 🚀 Project | 📝 Description | 🛠️ Tech Stack |
 |:----------:|:---------------|:--------------|
-| **BatikLens AI (Wastra)** | AI-powered Indonesian Batik pattern recognition and heritage explorer | `React` `Next.js` `YOLOv8` `Flask` |
-| **[NAMA PROJECT 2]** | [DESKRIPSI PROJECT 2] | `[TECH STACK 2]` |
-| **[NAMA PROJECT 3]** | [DESKRIPSI PROJECT 3] | `[TECH STACK 3]` |
+| **BatikLens (Wastra.ai)** | AI-powered Indonesian batik motif recognition + fine-tuned cultural expert LLM | `React` `Next.js` `YOLOv8` `Flask` `Qwen2.5` |
+| **openmed-id** | Indonesian clinical NLP: rule-based PII de-identification + zero-shot medical NER | `Python` `GLiNER` `IndoBERT` |
+| **Intern Task Monitoring System** | Web-based intern task monitoring & reporting system for PT Primalogic | `ASP.NET MVC` `SQL Server` `SSRS` |
 
 </div>
 
@@ -163,21 +188,21 @@
 <details>
 <summary><b>🤔 What am I currently working on? <i>(Click to expand)</i></b></summary>
 <br/>
-<p>I am actively developing <b>BatikLens AI (Wastra)</b>, refining the YOLOv8 model for better mobile inference speed and improving the web interface.</p>
+<p>I'm actively building <b>openmed-id</b> for Indonesian clinical NLP, and training <b>Wastra.ai</b> — a batik cultural expert LLM — as part of the <b>BatikLens</b> ecosystem.</p>
 </details>
 <br/>
 
 <details>
 <summary><b>🛠️ What is my favorite tech stack right now? <i>(Click to expand)</i></b></summary>
 <br/>
-<p>I'm loving the combination of <b>Next.js + TailwindCSS</b> for frontend, and using <b>Python (Flask/FastAPI)</b> for backend AI integrations!</p>
+<p>I'm loving <b>Python + Hugging Face</b> for ML/NLP work, and <b>Next.js + Flask</b> for shipping AI-powered web apps.</p>
 </details>
 <br/>
 
 <details>
 <summary><b>🤝 Am I open for collaborations? <i>(Click to expand)</i></b></summary>
 <br/>
-<p><b>Absolutely!</b> I'm always open to discussing new ideas, joining hackathons, or contributing to open-source AI and web projects. Drop me an email!</p>
+<p><b>Absolutely!</b> I'm always open to discussing Indonesian AI/NLP research, hackathons, or open-source contributions. Drop me an email!</p>
 </details>
 </div>
 
@@ -219,10 +244,6 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <!-- FOOTER -->
-<p align="center">
-<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/footer-retro-gaming.png" width="100%" alt="Retro Gaming Setup"/>
-</p>
-
 <div align="center">
 <h2 id="-open-for-opportunities">💼 Open for Opportunities</h2>
 
