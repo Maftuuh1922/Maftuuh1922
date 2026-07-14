@@ -314,10 +314,13 @@ def build_block(username: str) -> str:
     with open("assets/hf-tags.svg", "w", encoding="utf-8") as f:
         f.write(generate_tags_svg(models, spaces))
 
+    import time
+    ts = int(time.time())
+    
     badges = (
         f'<div align="center">\n'
-        f'  <img src="assets/hf-stats.svg" alt="Hugging Face Statistics" />\n'
-        f'  <img src="assets/hf-tags.svg" alt="Top ML Tags" />\n'
+        f'  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-stats.svg?v={ts}" alt="Hugging Face Statistics" />\n'
+        f'  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-tags.svg?v={ts}" alt="Top ML Tags" />\n'
         f'</div>\n'
     )
 
