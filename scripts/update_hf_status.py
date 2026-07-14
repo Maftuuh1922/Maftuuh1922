@@ -126,9 +126,25 @@ def build_block(username: str) -> str:
     spaces = fetch_spaces(username)
     models = fetch_models(username)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    
+    total_models = len(models)
+    total_spaces = len(spaces)
+    total_downloads = sum(m.get("downloads", 0) for m in models)
+    total_likes = sum(m.get("likes", 0) for m in models) + sum(s.get("likes", 0) for s in spaces)
+
+    # Format badges
+    badges = (
+        f'<div align="center">\n'
+        f'  <img src="https://img.shields.io/badge/Models-{total_models}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Models"/>\n'
+        f'  <img src="https://img.shields.io/badge/Spaces-{total_spaces}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Spaces"/>\n'
+        f'  <img src="https://img.shields.io/badge/Downloads-{total_downloads}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Downloads"/>\n'
+        f'  <img src="https://img.shields.io/badge/Likes-{total_likes}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Likes"/>\n'
+        f'</div>\n'
+    )
 
     block = [
         START_MARKER,
+        badges,
         "```console",
         f"maftuh@hf-api:~$ ./fetch_hf_stats.sh --user {username}",
         "[+] Fetching Hugging Face activity... Done!",
