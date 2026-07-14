@@ -27,6 +27,7 @@
 <a href="#-tech-stack--coding-vibes"><img src="https://img.shields.io/badge/💻_Tech_Stack-444444?style=flat&logoColor=white" alt="Tech Stack"/></a>
 <a href="#-github-analytics"><img src="https://img.shields.io/badge/📊_Analytics-555555?style=flat&logoColor=white" alt="Analytics"/></a>
 <a href="#-featured-projects"><img src="https://img.shields.io/badge/⭐_Projects-666666?style=flat&logoColor=white" alt="Projects"/></a>
+<a href="#-hugging-face"><img src="https://img.shields.io/badge/🤗_Hugging_Face-777777?style=flat&logoColor=white" alt="Hugging Face"/></a>
 <a href="#-interactive-faq"><img src="https://img.shields.io/badge/💬_FAQ-777777?style=flat&logoColor=white" alt="FAQ"/></a>
 </p>
 
@@ -65,6 +66,9 @@
 </a>
 <a href="https://github.com/Maftuuh1922" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://huggingface.co/maftuh-main" target="_blank">
+<img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=flat&logoColor=black" alt="Hugging Face"/>
 </a>
 </p>
 
@@ -156,6 +160,41 @@
 | **BatikLens (Wastra.ai)** | AI-powered Indonesian batik motif recognition + fine-tuned cultural expert LLM | `React` `Next.js` `YOLOv8` `Flask` `Qwen2.5` |
 | **openmed-id** | Indonesian clinical NLP: rule-based PII de-identification + zero-shot medical NER | `Python` `GLiNER` `IndoBERT` |
 | **Intern Task Monitoring System** | Web-based intern task monitoring & reporting system for PT Primalogic | `ASP.NET MVC` `SQL Server` `SSRS` |
+
+</div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- HUGGING FACE -->
+<h2 align="center" id="-hugging-face">🤗 Hugging Face</h2>
+
+<p align="center">
+<a href="https://huggingface.co/maftuh-main" target="_blank">
+<img src="https://img.shields.io/badge/🤗_Profile-maftuh--main-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face Profile"/>
+</a>
+</p>
+
+<div align="center">
+
+**🧩 Spaces**
+
+| Space | Description | Status |
+|:------|:-------------|:------:|
+| [**Wastra Yolo Gradio**](https://huggingface.co/spaces/maftuh-main/wastra-ai) 🖥️ | Chat about Indonesian Batik culture with an expert AI | 🟢 Running |
+| [**Wastra Yolo Api**](https://huggingface.co/spaces/maftuh-main) 👀 | Detect objects in images with YOLOv8 API | 😴 Sleeping |
+| [**Wastra Lora Api**](https://huggingface.co/spaces/maftuh-main) 🎨 | Generate custom batik images using Stable Diffusion + LoRA | 😴 Sleeping |
+| [**Batik Classifier**](https://huggingface.co/spaces/maftuh-main) 🎨 | Enhance and analyze batik images with AI-powered tools | 😴 Sleeping |
+
+**🧠 Models & Datasets**
+
+| Repository | Type |
+|:-----------|:-----|
+| [`maftuh-main/batik-qwen1.5b-adapter-v3`](https://huggingface.co/maftuh-main/batik-qwen1.5b-adapter-v3) | Model (LoRA adapter) |
+| [`maftuh-main/batik-qwen1.5b-merged`](https://huggingface.co/maftuh-main/batik-qwen1.5b-merged) | Model (merged, Text Generation) |
+| [`maftuh-main/wastra-yolov8-detector`](https://huggingface.co/maftuh-main/wastra-yolov8-detector) | Model (YOLOv8) |
+| [`maftuh-main/dataset-batik-trl-sft`](https://huggingface.co/datasets/maftuh-main/dataset-batik-trl-sft) | Dataset (3M rows) |
 
 </div>
 
