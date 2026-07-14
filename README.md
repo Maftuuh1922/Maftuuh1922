@@ -180,11 +180,21 @@
 </a>
 </p>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-spaces-overview.png" width="700"/>
-</p>
-
 <div align="center">
+
+<table>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-spaces-overview.png" width="700"/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td>
 
 <details>
 <summary><b>🖥️ Wastra Yolo Gradio — Chat about Indonesian Batik culture with an expert AI <i>(Click to expand)</i></b></summary>
@@ -192,7 +202,11 @@
 <p>🟢 <b>Running</b> · Gradio Space powered by <b>Wastra.ai</b> (fine-tuned Qwen2.5-1.5B). Ask it anything about Nusantara batik motifs, history, and philosophy.</p>
 <p><a href="https://huggingface.co/spaces/maftuh-main/wastra-ai">→ Open Space</a></p>
 </details>
-<br/>
+
+</td>
+</tr>
+<tr>
+<td>
 
 <details>
 <summary><b>👀 Wastra Yolo Api — Detect objects in images with YOLOv8 API <i>(Click to expand)</i></b></summary>
@@ -200,7 +214,11 @@
 <p>😴 <b>Sleeping</b> (spins up on request) · Serves the BatikLens YOLOv8 batik motif detector as an API endpoint.</p>
 <p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
 </details>
-<br/>
+
+</td>
+</tr>
+<tr>
+<td>
 
 <details>
 <summary><b>🎨 Wastra Lora Api — Generate custom images using Stable Diffusion and LoRA <i>(Click to expand)</i></b></summary>
@@ -208,7 +226,11 @@
 <p>😴 <b>Sleeping</b> (spins up on request) · Text-to-image generation fine-tuned on batik motifs via a Stable Diffusion LoRA adapter.</p>
 <p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
 </details>
-<br/>
+
+</td>
+</tr>
+<tr>
+<td>
 
 <details>
 <summary><b>🖌️ Batik Classifier — Enhance and analyze images with AI-powered tools <i>(Click to expand)</i></b></summary>
@@ -216,7 +238,11 @@
 <p>😴 <b>Sleeping</b> (spins up on request) · Classifies and analyzes batik motif images using AI-powered enhancement tools.</p>
 <p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
 </details>
-<br/>
+
+</td>
+</tr>
+<tr>
+<td>
 
 <details>
 <summary><b>🧠 Models & Datasets <i>(Click to expand)</i></b></summary>
@@ -230,6 +256,10 @@
 | [`maftuh-main/dataset-batik-trl-sft`](https://huggingface.co/datasets/maftuh-main/dataset-batik-trl-sft) | Dataset (3M rows) |
 
 </details>
+
+</td>
+</tr>
+</table>
 
 </div>
 
