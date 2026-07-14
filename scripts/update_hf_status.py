@@ -327,17 +327,6 @@ def build_block(username: str) -> str:
     block = [
         START_MARKER,
         badges,
-        "```console",
-        f"maftuh@hf-api:~$ ./fetch_hf_stats.sh --user {username}",
-        "[+] Fetching Hugging Face activity... Done!",
-        f"[+] Last updated: {now}",
-        "",
-        "🚀 SPACES",
-        build_spaces_table(spaces),
-        "",
-        "🧠 MODELS",
-        build_models_table(models),
-        "```",
         END_MARKER,
     ]
     return "\n".join(block)

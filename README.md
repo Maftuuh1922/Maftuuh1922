@@ -272,39 +272,10 @@
 <!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
 <!-- HF-ACTIVITY:START -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v=1784025274" alt="Hugging Face Statistics" />
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v=1784025274" alt="Top ML Tags" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v=1784025434" alt="Hugging Face Statistics" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v=1784025434" alt="Top ML Tags" />
 </div>
 
-```console
-maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
-[+] Fetching Hugging Face activity... Done!
-[+] Last updated: 2026-07-14 10:34 UTC
-
-🚀 SPACES
-+-----------------------------------------------+-----------------+------------+--------------+
-| Name                                          | Status          | Likes      | SDK          |
-+-----------------------------------------------+-----------------+------------+--------------+
-| batik-classifier                              | 😴 Sleeping      |          1 | docker       |
-| meme-emotion-demo                             | 😴 Sleeping      |          0 | gradio       |
-| wastra-yolo-api                               | 😴 Sleeping      |          0 | docker       |
-| wastra-lora-api                               | 😴 Sleeping      |          0 | docker       |
-| wastra-ai                                     | 🟢 Running       |          0 | gradio       |
-+-----------------------------------------------+-----------------+------------+--------------+
-
-🧠 MODELS
-+-----------------------------------------------+-----------------+------------+
-| Name                                          | Downloads       | Likes      |
-+-----------------------------------------------+-----------------+------------+
-| meme-emotion-detector                         |               3 |          0 |
-| wastra-yolov8-detector                        |               0 |          0 |
-| batik-generator-lora                          |               0 |          0 |
-| batik-qwen1.5b-adapter                        |               0 |          0 |
-| batik-qwen1.5b-merged                         |             732 |          0 |
-| batik-qwen1.5b-adapter-v2                     |               0 |          0 |
-| batik-qwen1.5b-adapter-v3                     |               0 |          0 |
-+-----------------------------------------------+-----------------+------------+
-```
 <!-- HF-ACTIVITY:END -->
 <br/>
 
