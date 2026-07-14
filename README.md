@@ -180,6 +180,10 @@
 </a>
 </p>
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-spaces-overview.png" width="700"/>
+</p>
+
 <div align="center">
 
 <details>
