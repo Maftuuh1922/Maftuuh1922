@@ -19,34 +19,38 @@
 
 </div>
 
+<table>
+<tr>
+<td valign="top">
+<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/ascii-avatar-color.png" width="300"/>
+</td>
+<td valign="top">
+
 ```
-                   .......                       maftuh@cachyos
-               ';=**==*##**++==+;'.              ─────────────────
-            -+*%#######%#***#**%%%#:             OS: ......... CachyOS Linux x86_64
-          `=%%#**########**#-;-'%##@=            Kernel: ..... Linux (CachyOS optimized)
-         '+*%**#######*##***=*-;#%%##+           WM: ......... Hyprland (Wayland)
-       .=%:=%###***#######**#+;%%%%%#%:          Shell: ...... fish
-      `%%%+-#%#*##############*%%%%%%##          Terminal: ... kitty / foot
-      =%%%*=*####%%%%#*%#*==%%%####%##%:         Editor: ..... Neovim / VS Code
-      *####%*=*%#*=;%%#*###*###########*
-     .;#######%*``=;`'=#%%##############`        Role: ....... D3 Informatics Eng. student @ ULBI
-     '=%#####*+'..:`  `'::-+*#%%##%%####.        Intern: ..... Quality Engineer @ PT Primalogic
-     +*+%##%;. ...    `.    .';*%#:-';%+         Focus: ...... Clinical NLP, Computer Vision, LLM Fine-tuning
-     #- #*#%+'=+-`-` ..``````..;%;-:. ``         Languages: .. Python, TypeScript, C#, SQL
-     ;; +**%#`;@#  - -`+*#-'-' '%+::'`  ``
-      '.*%=%*+ --  - '  =#`    '#;*+''```''.     Now.Building: openmed-id (Indonesian clinical NLP)
-       `-.:*:-:. .'.  '...   .`'`:=-.-'``'`'`    Now.Training:  Wastra.ai (batik cultural expert LLM)
-           ``  '-`.    ...`':=;-::`. -'''...'    Now.Shipping:  BatikLens (YOLOv8 batik motif detector)
-             '---::`.--''``.';''`';-`--..``.-.
-           '-';-:-:;'```-``-::--';'.`'-`````'.   Contact: ..... github.com/Maftuuh1922
-          --.`+:::-:-'``.';-`---;-..``'`````'
-        .-'```:-:`   `-`-;--'-'--:':-''````'.
-       `:`'''.````'  .-.`;''':''`--:'    .
-        ''`..````.''-'`.`:--'''-` '-'
-         -'.```.``::;...`:-'':`-`.`::
-          ``'':-;;--:`'``:''':--''''.
-              .````..    '''''``.
+maftuh@cachyos
+─────────────────
+OS: ......... CachyOS Linux x86_64
+Kernel: ..... Linux (CachyOS optimized)
+WM: ......... Hyprland (Wayland)
+Shell: ...... fish
+Terminal: ... kitty / foot
+Editor: ..... Neovim / VS Code
+
+Role: ....... D3 Informatics Eng. student @ ULBI
+Intern: ..... Quality Engineer @ PT Primalogic
+Focus: ...... Clinical NLP, Computer Vision, LLM Fine-tuning
+Languages: .. Python, TypeScript, C#, SQL
+
+Now.Building: openmed-id (Indonesian clinical NLP)
+Now.Training:  Wastra.ai (batik cultural expert LLM)
+Now.Shipping:  BatikLens (YOLOv8 batik motif detector)
+
+Contact: ..... github.com/Maftuuh1922
 ```
+
+</td>
+</tr>
+</table>
 
 <!-- PROFILE BADGES -->
 <p align="center">
