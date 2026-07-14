@@ -1,3 +1,5 @@
+<div align="center">
+
 <table>
 <tr>
 <td valign="top">
@@ -8,6 +10,8 @@
 </td>
 </tr>
 </table>
+
+</div>
 
 <!-- NEOFETCH-STYLE INTRO -->
 <div align="center">
