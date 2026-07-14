@@ -272,16 +272,14 @@
 <!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
 <!-- HF-ACTIVITY:START -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Models-7-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Models"/>
-  <img src="https://img.shields.io/badge/Spaces-5-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Spaces"/>
-  <img src="https://img.shields.io/badge/Downloads-735-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Downloads"/>
-  <img src="https://img.shields.io/badge/Likes-1-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Likes"/>
+  <img src="assets/hf-stats.svg" alt="Hugging Face Statistics" />
+  <img src="assets/hf-tags.svg" alt="Top ML Tags" />
 </div>
 
 ```console
 maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
 [+] Fetching Hugging Face activity... Done!
-[+] Last updated: 2026-07-14 10:22 UTC
+[+] Last updated: 2026-07-14 10:26 UTC
 
 🚀 SPACES
 +-----------------------------------------------+-----------------+------------+--------------+

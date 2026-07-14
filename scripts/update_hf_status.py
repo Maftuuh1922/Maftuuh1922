@@ -122,6 +122,84 @@ def build_models_table(models: list[dict]) -> str:
     return "\n".join(rows)
 
 
+from collections import Counter
+import os
+
+def generate_stats_svg(models_count, spaces_count, downloads, likes) -> str:
+    return f"""<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {{ font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #aaaaaa; }}
+    .stat {{ font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; }}
+    .icon {{ fill: #888888; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }}
+    .bold {{ font-weight: 700; }}
+  </style>
+  <rect x="0.5" y="0.5" rx="20" width="494" height="194" fill="#0d1117" stroke="#e4e2e2" stroke-opacity="0" />
+  <text x="25" y="35" class="header">My Hugging Face Statistics</text>
+  
+  <g transform="translate(25, 65)">
+    <text x="0" y="0" class="stat">📦</text>
+    <text x="30" y="0" class="stat">Total Models:</text>
+    <text x="170" y="0" class="stat bold">{models_count}</text>
+    
+    <text x="0" y="30" class="stat">🚀</text>
+    <text x="30" y="30" class="stat">Total Spaces:</text>
+    <text x="170" y="30" class="stat bold">{spaces_count}</text>
+    
+    <text x="0" y="60" class="stat">⬇️</text>
+    <text x="30" y="60" class="stat">Total Downloads:</text>
+    <text x="170" y="60" class="stat bold">{downloads}</text>
+    
+    <text x="0" y="90" class="stat">❤️</text>
+    <text x="30" y="90" class="stat">Total Likes:</text>
+    <text x="170" y="90" class="stat bold">{likes}</text>
+  </g>
+  
+  <g transform="translate(360, 60)">
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#FFD21E" stroke-width="6" />
+    <text x="50" y="55" font-size="35" fill="#FFD21E" text-anchor="middle" dominant-baseline="middle" font-family="'Segoe UI Emoji', sans-serif">🤗</text>
+  </g>
+</svg>"""
+
+def generate_tags_svg(models, spaces) -> str:
+    tags = []
+    for item in models + spaces:
+        t = item.get("tags", [])
+        if isinstance(t, list):
+            tags.extend([x for x in t if ":" not in x and x not in ("safetensors", "endpoints_compatible", "transformers", "region:us")])
+            
+    counter = Counter(tags)
+    top_5 = counter.most_common(5)
+    
+    if not top_5:
+        top_5 = [("No Tags Found", 1)]
+        
+    total_tags = sum(count for _, count in top_5)
+    colors = ["#3178c6", "#00b4ab", "#e34c26", "#4f5b93", "#178600"]
+    
+    bars = ""
+    y_offset = 65
+    
+    for i, (tag, count) in enumerate(top_5):
+        perc = (count / total_tags) * 100
+        color = colors[i % len(colors)]
+        
+        bars += f'''
+    <g transform="translate(25, {y_offset})">
+      <circle cx="5" cy="-4" r="4" fill="{color}" />
+      <text x="15" y="0" class="tag-name">{tag} ({perc:.1f}%)</text>
+    </g>'''
+        y_offset += 25
+
+    return f"""<svg width="300" height="195" viewBox="0 0 300 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {{ font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #aaaaaa; }}
+    .tag-name {{ font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; }}
+  </style>
+  <rect x="0.5" y="0.5" rx="20" width="294" height="194" fill="#0d1117" stroke="#e4e2e2" stroke-opacity="0" />
+  <text x="25" y="35" class="header">Top ML Tags</text>
+  {bars}
+</svg>"""
+
 def build_block(username: str) -> str:
     spaces = fetch_spaces(username)
     models = fetch_models(username)
@@ -132,13 +210,16 @@ def build_block(username: str) -> str:
     total_downloads = sum(m.get("downloads", 0) for m in models)
     total_likes = sum(m.get("likes", 0) for m in models) + sum(s.get("likes", 0) for s in spaces)
 
-    # Format badges
+    os.makedirs("assets", exist_ok=True)
+    with open("assets/hf-stats.svg", "w", encoding="utf-8") as f:
+        f.write(generate_stats_svg(total_models, total_spaces, total_downloads, total_likes))
+    with open("assets/hf-tags.svg", "w", encoding="utf-8") as f:
+        f.write(generate_tags_svg(models, spaces))
+
     badges = (
         f'<div align="center">\n'
-        f'  <img src="https://img.shields.io/badge/Models-{total_models}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Models"/>\n'
-        f'  <img src="https://img.shields.io/badge/Spaces-{total_spaces}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Spaces"/>\n'
-        f'  <img src="https://img.shields.io/badge/Downloads-{total_downloads}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Downloads"/>\n'
-        f'  <img src="https://img.shields.io/badge/Likes-{total_likes}-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Likes"/>\n'
+        f'  <img src="assets/hf-stats.svg" alt="Hugging Face Statistics" />\n'
+        f'  <img src="assets/hf-tags.svg" alt="Top ML Tags" />\n'
         f'</div>\n'
     )
 

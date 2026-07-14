@@ -1,0 +1,29 @@
+<svg width="300" height="195" viewBox="0 0 300 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #aaaaaa; }
+    .tag-name { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; }
+  </style>
+  <rect x="0.5" y="0.5" rx="20" width="294" height="194" fill="#0d1117" stroke="#e4e2e2" stroke-opacity="0" />
+  <text x="25" y="35" class="header">Top ML Tags</text>
+  
+    <g transform="translate(25, 65)">
+      <circle cx="5" cy="-4" r="4" fill="#3178c6" />
+      <text x="15" y="0" class="tag-name">docker (37.5%)</text>
+    </g>
+    <g transform="translate(25, 90)">
+      <circle cx="5" cy="-4" r="4" fill="#00b4ab" />
+      <text x="15" y="0" class="tag-name">gradio (25.0%)</text>
+    </g>
+    <g transform="translate(25, 115)">
+      <circle cx="5" cy="-4" r="4" fill="#e34c26" />
+      <text x="15" y="0" class="tag-name">tflite (12.5%)</text>
+    </g>
+    <g transform="translate(25, 140)">
+      <circle cx="5" cy="-4" r="4" fill="#4f5b93" />
+      <text x="15" y="0" class="tag-name">emotion-detection (12.5%)</text>
+    </g>
+    <g transform="translate(25, 165)">
+      <circle cx="5" cy="-4" r="4" fill="#178600" />
+      <text x="15" y="0" class="tag-name">facial-expression (12.5%)</text>
+    </g>
+</svg>
