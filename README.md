@@ -180,39 +180,6 @@
 </a>
 </p>
 
-<!-- 🔄 Status Spaces & Models di bawah ini diupdate OTOMATIS oleh GitHub Actions -->
-<!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
-<!-- HF-ACTIVITY:START -->
-```console
-maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
-[+] Fetching Hugging Face activity... Done!
-[+] Last updated: 2026-07-14 10:07 UTC
-
-🚀 SPACES
-+---------------------------+-------------+-------+--------+
-| Name                      | Status      | Likes | SDK    |
-+---------------------------+-------------+-------+--------+
-| batik-classifier          | 😴 Sleeping  |     1 | docker |
-| meme-emotion-demo         | 😴 Sleeping  |     0 | gradio |
-| wastra-yolo-api           | 😴 Sleeping  |     0 | docker |
-| wastra-lora-api           | 😴 Sleeping  |     0 | docker |
-| wastra-ai                 | 🟢 Running   |     0 | gradio |
-+---------------------------+-------------+-------+--------+
-
-🧠 MODELS
-+---------------------------+-----------+-------+
-| Name                      | Downloads | Likes |
-+---------------------------+-----------+-------+
-| meme-emotion-detector     |         3 |     0 |
-| wastra-yolov8-detector    |         0 |     0 |
-| batik-generator-lora      |         0 |     0 |
-| batik-qwen1.5b-adapter    |         0 |     0 |
-| batik-qwen1.5b-merged     |       732 |     0 |
-| batik-qwen1.5b-adapter-v2 |         0 |     0 |
-| batik-qwen1.5b-adapter-v3 |         0 |     0 |
-+---------------------------+-----------+-------+
-```
-<!-- HF-ACTIVITY:END -->
 
 <div align="center">
 
@@ -300,6 +267,41 @@ maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- 🔄 Status Spaces & Models di bawah ini diupdate OTOMATIS oleh GitHub Actions -->
+<!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
+<!-- HF-ACTIVITY:START -->
+```console
+maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
+[+] Fetching Hugging Face activity... Done!
+[+] Last updated: 2026-07-14 10:07 UTC
+
+🚀 SPACES
++---------------------------+-------------+-------+--------+
+| Name                      | Status      | Likes | SDK    |
++---------------------------+-------------+-------+--------+
+| batik-classifier          | 😴 Sleeping  |     1 | docker |
+| meme-emotion-demo         | 😴 Sleeping  |     0 | gradio |
+| wastra-yolo-api           | 😴 Sleeping  |     0 | docker |
+| wastra-lora-api           | 😴 Sleeping  |     0 | docker |
+| wastra-ai                 | 🟢 Running   |     0 | gradio |
++---------------------------+-------------+-------+--------+
+
+🧠 MODELS
++---------------------------+-----------+-------+
+| Name                      | Downloads | Likes |
++---------------------------+-----------+-------+
+| meme-emotion-detector     |         3 |     0 |
+| wastra-yolov8-detector    |         0 |     0 |
+| batik-generator-lora      |         0 |     0 |
+| batik-qwen1.5b-adapter    |         0 |     0 |
+| batik-qwen1.5b-merged     |       732 |     0 |
+| batik-qwen1.5b-adapter-v2 |         0 |     0 |
+| batik-qwen1.5b-adapter-v3 |         0 |     0 |
++---------------------------+-----------+-------+
+```
+<!-- HF-ACTIVITY:END -->
+<br/>
 
 <!-- INTERACTIVE FAQ SECTION (COLLAPSIBLE) -->
 <h2 align="center" id="-interactive-faq">💬 Interactive Q&A</h2>
