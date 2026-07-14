@@ -1,32 +1,10 @@
 <table>
 <tr>
 <td valign="top">
-<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/ascii-avatar2.png" width="300"/>
+<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/ascii-avatar2.png" width="420"/>
 </td>
 <td valign="top">
-
-```ansi
-[1;36mmaftuh@cachyos[0m
-[90m─────────────────[0m
-[1;33mOS:[0m ......... [97mCachyOS Linux x86_64[0m
-[1;33mKernel:[0m ..... [97mLinux (CachyOS optimized)[0m
-[1;33mWM:[0m ......... [97mHyprland (Wayland)[0m
-[1;33mShell:[0m ...... [97mfish[0m
-[1;33mTerminal:[0m ... [97mkitty / foot[0m
-[1;33mEditor:[0m ..... [97mNeovim / VS Code[0m
-
-[1;33mRole:[0m ....... [97mD3 Informatics Eng. student @ ULBI[0m
-[1;33mIntern:[0m ..... [97mQuality Engineer @ PT Primalogic[0m
-[1;33mFocus:[0m ...... [97mClinical NLP, Computer Vision, LLM Fine-tuning[0m
-[1;33mLanguages:[0m .. [97mPython, TypeScript, C#, SQL[0m
-
-[1;32mNow.Building:[0m [97mopenmed-id (Indonesian clinical NLP)[0m
-[1;32mNow.Training:[0m  [97mWastra.ai (batik cultural expert LLM)[0m
-[1;32mNow.Shipping:[0m  [97mBatikLens (YOLOv8 batik motif detector)[0m
-
-[1;33mContact:[0m ..... [97mgithub.com/Maftuuh1922[0m
-```
-
+<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/neofetch-info.png" width="520"/>
 </td>
 </tr>
 </table>
