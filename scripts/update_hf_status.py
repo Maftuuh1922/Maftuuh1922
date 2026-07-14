@@ -45,39 +45,63 @@ def fetch_models(username: str) -> list[dict]:
     return r.json()
 
 
+def pad_right(text: str, length: int) -> str:
+    # Mengatasi masalah padding dengan karakter emoji yang lebarnya beda
+    # Kita asumsikan emoji di status memakan 1 atau 2 karakter tambahan visual
+    return text.ljust(length)
+
 def build_spaces_table(spaces: list[dict]) -> str:
     if not spaces:
-        return "_Belum ada Space yang terdeteksi._"
+        return "  _Belum ada Space yang terdeteksi._"
 
+    # Menghitung lebar kolom
+    max_name = max(len(s.get("id", "").split("/")[-1]) for s in spaces)
+    max_name = max(max_name, 25) # Minimal 25
+    
     rows = [
-        "| Space | Status | Likes | SDK |",
-        "|:------|:-------|:-----:|:----|",
+        f"+-{'-' * max_name}-+-------------+-------+--------+",
+        f"| {'Name'.ljust(max_name)} | Status      | Likes | SDK    |",
+        f"+-{'-' * max_name}-+-------------+-------+--------+",
     ]
+    
     for s in spaces:
         stage = s.get("runtime", {}).get("stage", "UNKNOWN")
         status_label = STAGE_EMOJI.get(stage, f"⚪ {stage}")
         name = s.get("id", "").split("/")[-1]
-        url = f"https://huggingface.co/spaces/{s.get('id')}"
-        likes = s.get("likes", 0)
+        likes = str(s.get("likes", 0))
         sdk = s.get("sdk", "-")
-        rows.append(f"| [{name}]({url}) | {status_label} | {likes} | `{sdk}` |")
+        
+        # Emoji adjustment for alignment (status_label contains an emoji which might mess up monospace, 
+        # but standard monospace usually treats it as 1 or 2. We'll just pad manually.
+        # "⚪ UNKNOWN" is 10 chars long but visually might be 9 or 10. Let's hardcode width to 11.
+        # Sebenarnya kita bisa pakai ljust biasa, di terminal monospace akan terlihat oke.
+        
+        rows.append(f"| {name.ljust(max_name)} | {status_label.ljust(11)} | {likes.rjust(5)} | {sdk.ljust(6)} |")
+        
+    rows.append(f"+-{'-' * max_name}-+-------------+-------+--------+")
     return "\n".join(rows)
 
 
 def build_models_table(models: list[dict]) -> str:
     if not models:
-        return "_Belum ada Model yang terdeteksi._"
+        return "  _Belum ada Model yang terdeteksi._"
 
+    max_name = max(len(m.get("id", "").split("/")[-1]) for m in models)
+    max_name = max(max_name, 25) # Minimal 25
+    
     rows = [
-        "| Model | Downloads | Likes |",
-        "|:------|:---------:|:-----:|",
+        f"+-{'-' * max_name}-+-----------+-------+",
+        f"| {'Name'.ljust(max_name)} | Downloads | Likes |",
+        f"+-{'-' * max_name}-+-----------+-------+",
     ]
+    
     for m in models:
         name = m.get("id", "").split("/")[-1]
-        url = f"https://huggingface.co/{m.get('id')}"
-        downloads = m.get("downloads", 0)
-        likes = m.get("likes", 0)
-        rows.append(f"| [{name}]({url}) | {downloads} | {likes} |")
+        downloads = str(m.get("downloads", 0))
+        likes = str(m.get("likes", 0))
+        rows.append(f"| {name.ljust(max_name)} | {downloads.rjust(9)} | {likes.rjust(5)} |")
+        
+    rows.append(f"+-{'-' * max_name}-+-----------+-------+")
     return "\n".join(rows)
 
 
@@ -88,15 +112,17 @@ def build_block(username: str) -> str:
 
     block = [
         START_MARKER,
-        f"<sub>🔄 Terakhir diperbarui otomatis: {now}</sub>",
+        "```console",
+        f"maftuh@hf-api:~$ ./fetch_hf_stats.sh --user {username}",
+        "[+] Fetching Hugging Face activity... Done!",
+        f"[+] Last updated: {now}",
         "",
-        "**🚀 Spaces**",
-        "",
+        "🚀 SPACES",
         build_spaces_table(spaces),
         "",
-        "**🧠 Models**",
-        "",
+        "🧠 MODELS",
         build_models_table(models),
+        "```",
         END_MARKER,
     ]
     return "\n".join(block)
