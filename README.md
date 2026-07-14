@@ -274,31 +274,31 @@
 ```console
 maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
 [+] Fetching Hugging Face activity... Done!
-[+] Last updated: 2026-07-14 10:07 UTC
+[+] Last updated: 2026-07-14 10:18 UTC
 
 🚀 SPACES
-+---------------------------+-------------+-------+--------+
-| Name                      | Status      | Likes | SDK    |
-+---------------------------+-------------+-------+--------+
-| batik-classifier          | 😴 Sleeping  |     1 | docker |
-| meme-emotion-demo         | 😴 Sleeping  |     0 | gradio |
-| wastra-yolo-api           | 😴 Sleeping  |     0 | docker |
-| wastra-lora-api           | 😴 Sleeping  |     0 | docker |
-| wastra-ai                 | 🟢 Running   |     0 | gradio |
-+---------------------------+-------------+-------+--------+
++-----------------------------------------------+-----------------+------------+--------------+
+| Name                                          | Status          | Likes      | SDK          |
++-----------------------------------------------+-----------------+------------+--------------+
+| batik-classifier                              | 😴 Sleeping      |          1 | docker       |
+| meme-emotion-demo                             | 😴 Sleeping      |          0 | gradio       |
+| wastra-yolo-api                               | 😴 Sleeping      |          0 | docker       |
+| wastra-lora-api                               | 😴 Sleeping      |          0 | docker       |
+| wastra-ai                                     | 🟢 Running       |          0 | gradio       |
++-----------------------------------------------+-----------------+------------+--------------+
 
 🧠 MODELS
-+---------------------------+-----------+-------+
-| Name                      | Downloads | Likes |
-+---------------------------+-----------+-------+
-| meme-emotion-detector     |         3 |     0 |
-| wastra-yolov8-detector    |         0 |     0 |
-| batik-generator-lora      |         0 |     0 |
-| batik-qwen1.5b-adapter    |         0 |     0 |
-| batik-qwen1.5b-merged     |       732 |     0 |
-| batik-qwen1.5b-adapter-v2 |         0 |     0 |
-| batik-qwen1.5b-adapter-v3 |         0 |     0 |
-+---------------------------+-----------+-------+
++-----------------------------------------------+-----------------+------------+
+| Name                                          | Downloads       | Likes      |
++-----------------------------------------------+-----------------+------------+
+| meme-emotion-detector                         |               3 |          0 |
+| wastra-yolov8-detector                        |               0 |          0 |
+| batik-generator-lora                          |               0 |          0 |
+| batik-qwen1.5b-adapter                        |               0 |          0 |
+| batik-qwen1.5b-merged                         |             732 |          0 |
+| batik-qwen1.5b-adapter-v2                     |               0 |          0 |
+| batik-qwen1.5b-adapter-v3                     |               0 |          0 |
++-----------------------------------------------+-----------------+------------+
 ```
 <!-- HF-ACTIVITY:END -->
 <br/>

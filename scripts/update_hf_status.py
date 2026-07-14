@@ -69,12 +69,16 @@ def build_spaces_table(spaces: list[dict]) -> str:
 
     # Menghitung lebar kolom
     max_name = max(len(s.get("id", "").split("/")[-1]) for s in spaces)
-    max_name = max(max_name, 25) # Minimal 25
+    max_name = max(max_name, 45) # Minimal 45 agar tabel lebih lebar
+    
+    status_w = 15
+    likes_w = 10
+    sdk_w = 12
     
     rows = [
-        f"+-{'-' * max_name}-+-------------+-------+--------+",
-        f"| {'Name'.ljust(max_name)} | Status      | Likes | SDK    |",
-        f"+-{'-' * max_name}-+-------------+-------+--------+",
+        f"+-{'-' * max_name}-+-{'-' * status_w}-+-{'-' * likes_w}-+-{'-' * sdk_w}-+",
+        f"| {'Name'.ljust(max_name)} | {'Status'.ljust(status_w)} | {'Likes'.ljust(likes_w)} | {'SDK'.ljust(sdk_w)} |",
+        f"+-{'-' * max_name}-+-{'-' * status_w}-+-{'-' * likes_w}-+-{'-' * sdk_w}-+",
     ]
     
     for s in spaces:
@@ -84,14 +88,11 @@ def build_spaces_table(spaces: list[dict]) -> str:
         likes = str(s.get("likes", 0))
         sdk = s.get("sdk", "-")
         
-        # Emoji adjustment for alignment (status_label contains an emoji which might mess up monospace, 
-        # but standard monospace usually treats it as 1 or 2. We'll just pad manually.
-        # "⚪ UNKNOWN" is 10 chars long but visually might be 9 or 10. Let's hardcode width to 11.
-        # Sebenarnya kita bisa pakai ljust biasa, di terminal monospace akan terlihat oke.
+        # Karena emoji 'status_label' makan space ekstra di visual, ljust butuh disesuaikan
+        # Biasanya terminal modern akan menyesuaikan tapi monospace di web kadang sedikit meleset
+        rows.append(f"| {name.ljust(max_name)} | {status_label.ljust(status_w)} | {likes.rjust(likes_w)} | {sdk.ljust(sdk_w)} |")
         
-        rows.append(f"| {name.ljust(max_name)} | {status_label.ljust(11)} | {likes.rjust(5)} | {sdk.ljust(6)} |")
-        
-    rows.append(f"+-{'-' * max_name}-+-------------+-------+--------+")
+    rows.append(f"+-{'-' * max_name}-+-{'-' * status_w}-+-{'-' * likes_w}-+-{'-' * sdk_w}-+")
     return "\n".join(rows)
 
 
@@ -100,21 +101,24 @@ def build_models_table(models: list[dict]) -> str:
         return "  _Belum ada Model yang terdeteksi._"
 
     max_name = max(len(m.get("id", "").split("/")[-1]) for m in models)
-    max_name = max(max_name, 25) # Minimal 25
+    max_name = max(max_name, 45) # Minimal 45 agar seimbang dengan spaces
+    
+    dl_w = 15
+    likes_w = 10
     
     rows = [
-        f"+-{'-' * max_name}-+-----------+-------+",
-        f"| {'Name'.ljust(max_name)} | Downloads | Likes |",
-        f"+-{'-' * max_name}-+-----------+-------+",
+        f"+-{'-' * max_name}-+-{'-' * dl_w}-+-{'-' * likes_w}-+",
+        f"| {'Name'.ljust(max_name)} | {'Downloads'.ljust(dl_w)} | {'Likes'.ljust(likes_w)} |",
+        f"+-{'-' * max_name}-+-{'-' * dl_w}-+-{'-' * likes_w}-+",
     ]
     
     for m in models:
         name = m.get("id", "").split("/")[-1]
         downloads = str(m.get("downloads", 0))
         likes = str(m.get("likes", 0))
-        rows.append(f"| {name.ljust(max_name)} | {downloads.rjust(9)} | {likes.rjust(5)} |")
+        rows.append(f"| {name.ljust(max_name)} | {downloads.rjust(dl_w)} | {likes.rjust(likes_w)} |")
         
-    rows.append(f"+-{'-' * max_name}-+-----------+-------+")
+    rows.append(f"+-{'-' * max_name}-+-{'-' * dl_w}-+-{'-' * likes_w}-+")
     return "\n".join(rows)
 
 
