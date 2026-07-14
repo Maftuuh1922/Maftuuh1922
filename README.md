@@ -272,14 +272,14 @@
 <!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
 <!-- HF-ACTIVITY:START -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-stats.svg?v=1784025115" alt="Hugging Face Statistics" />
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-tags.svg?v=1784025115" alt="Top ML Tags" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v=1784025274" alt="Hugging Face Statistics" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v=1784025274" alt="Top ML Tags" />
 </div>
 
 ```console
 maftuh@hf-api:~$ ./fetch_hf_stats.sh --user maftuh-main
 [+] Fetching Hugging Face activity... Done!
-[+] Last updated: 2026-07-14 10:31 UTC
+[+] Last updated: 2026-07-14 10:34 UTC
 
 🚀 SPACES
 +-----------------------------------------------+-----------------+------------+--------------+

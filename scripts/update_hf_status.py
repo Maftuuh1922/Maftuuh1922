@@ -309,9 +309,9 @@ def build_block(username: str) -> str:
     total_likes = sum(m.get("likes", 0) for m in models) + sum(s.get("likes", 0) for s in spaces)
 
     os.makedirs("assets", exist_ok=True)
-    with open("assets/hf-stats.svg", "w", encoding="utf-8") as f:
+    with open("assets/hf-statistics.svg", "w", encoding="utf-8") as f:
         f.write(generate_stats_svg(total_models, total_spaces, total_downloads, total_likes))
-    with open("assets/hf-tags.svg", "w", encoding="utf-8") as f:
+    with open("assets/hf-focus-areas.svg", "w", encoding="utf-8") as f:
         f.write(generate_tags_svg(models, spaces))
 
     import time
@@ -319,8 +319,8 @@ def build_block(username: str) -> str:
     
     badges = (
         f'<div align="center">\n'
-        f'  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-stats.svg?v={ts}" alt="Hugging Face Statistics" />\n'
-        f'  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-tags.svg?v={ts}" alt="Top ML Tags" />\n'
+        f'  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v={ts}" alt="Hugging Face Statistics" />\n'
+        f'  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v={ts}" alt="Top ML Tags" />\n'
         f'</div>\n'
     )
 
