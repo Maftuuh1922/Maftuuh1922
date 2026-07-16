@@ -14,41 +14,41 @@
   <rect x="0.5" y="0.5" rx="4.5" width="309" height="194" fill="#0d1117" stroke="url(#border-grad2)" stroke-width="1"/>
   <text x="25" y="35" class="header2">My ML / AI Focus Areas</text>
   <g class="tag-group" transform="translate(30, 55)">
-    <clipPath id="bar-clip"><rect x="0" y="0" width="245" height="8" rx="4"/></clipPath><g clip-path="url(#bar-clip)"><rect x="0.0" y="0" width="66.8" height="8" rx="0" fill="#3178c6"/><rect x="66.8" y="0" width="44.5" height="8" rx="0" fill="#00b4ab"/><rect x="111.4" y="0" width="22.3" height="8" rx="0" fill="#e34c26"/><rect x="133.6" y="0" width="22.3" height="8" rx="0" fill="#4f5b93"/><rect x="155.9" y="0" width="22.3" height="8" rx="0" fill="#178600"/><rect x="178.2" y="0" width="22.3" height="8" rx="0" fill="#f1e05a"/><rect x="200.5" y="0" width="22.3" height="8" rx="0" fill="#563d7c"/><rect x="222.7" y="0" width="22.3" height="8" rx="0" fill="#b07219"/></g>
+    <clipPath id="bar-clip"><rect x="0" y="0" width="245" height="8" rx="4"/></clipPath><g clip-path="url(#bar-clip)"><rect x="0.0" y="0" width="52.5" height="8" rx="0" fill="#3178c6"/><rect x="52.5" y="0" width="35.0" height="8" rx="0" fill="#00b4ab"/><rect x="87.5" y="0" width="35.0" height="8" rx="0" fill="#e34c26"/><rect x="122.5" y="0" width="35.0" height="8" rx="0" fill="#4f5b93"/><rect x="157.5" y="0" width="35.0" height="8" rx="0" fill="#178600"/><rect x="192.5" y="0" width="17.5" height="8" rx="0" fill="#f1e05a"/><rect x="210.0" y="0" width="17.5" height="8" rx="0" fill="#563d7c"/><rect x="227.5" y="0" width="17.5" height="8" rx="0" fill="#b07219"/></g>
   </g>
   <g class="tag-group" transform="translate(30, 80)">
     <g transform="translate(0, 0)">
       <circle cx="5" cy="-4" r="5" fill="#3178c6" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#3178c6"/>
-      <text x="14" y="0" class="tag-name">docker (27%)</text>
+      <text x="14" y="0" class="tag-name">docker (21%)</text>
     </g><g transform="translate(130, 0)">
       <circle cx="5" cy="-4" r="5" fill="#00b4ab" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#00b4ab"/>
-      <text x="14" y="0" class="tag-name">gradio (18%)</text>
+      <text x="14" y="0" class="tag-name">qwen2 (14%)</text>
     </g><g transform="translate(0, 22)">
       <circle cx="5" cy="-4" r="5" fill="#e34c26" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#e34c26"/>
-      <text x="14" y="0" class="tag-name">tflite (9%)</text>
+      <text x="14" y="0" class="tag-name">text-generation (14%)</text>
     </g><g transform="translate(130, 22)">
       <circle cx="5" cy="-4" r="5" fill="#4f5b93" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#4f5b93"/>
-      <text x="14" y="0" class="tag-name">emotion-detection (9%)</text>
+      <text x="14" y="0" class="tag-name">lora (14%)</text>
     </g><g transform="translate(0, 44)">
       <circle cx="5" cy="-4" r="5" fill="#178600" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#178600"/>
-      <text x="14" y="0" class="tag-name">facial-expression (9%)</text>
+      <text x="14" y="0" class="tag-name">gradio (14%)</text>
     </g><g transform="translate(130, 44)">
       <circle cx="5" cy="-4" r="5" fill="#f1e05a" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#f1e05a"/>
-      <text x="14" y="0" class="tag-name">computer-vision (9%)</text>
+      <text x="14" y="0" class="tag-name">tflite (7%)</text>
     </g><g transform="translate(0, 66)">
       <circle cx="5" cy="-4" r="5" fill="#563d7c" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#563d7c"/>
-      <text x="14" y="0" class="tag-name">onnx (9%)</text>
+      <text x="14" y="0" class="tag-name">emotion-detection (7%)</text>
     </g><g transform="translate(130, 66)">
       <circle cx="5" cy="-4" r="5" fill="#b07219" opacity="0.2"/>
       <circle cx="5" cy="-4" r="2.5" fill="#b07219"/>
-      <text x="14" y="0" class="tag-name">qwen2 (9%)</text>
+      <text x="14" y="0" class="tag-name">facial-expression (7%)</text>
     </g>
   </g>
 </svg>
