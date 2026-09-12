@@ -272,8 +272,8 @@
 <!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
 <!-- HF-ACTIVITY:START -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v=1789236349" alt="Hugging Face Statistics" />
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v=1789236349" alt="Top ML Tags" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v=1789246006" alt="Hugging Face Statistics" />
+  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v=1789246006" alt="Top ML Tags" />
 </div>
 
 <!-- HF-ACTIVITY:END -->
