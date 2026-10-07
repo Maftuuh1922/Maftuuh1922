@@ -15,20 +15,10 @@
 <p align="center">
 <a href="#-about-me"><img src="https://img.shields.io/badge/👤_About_Me-333333?style=flat&logoColor=white" alt="About Me"/></a>
 
-<a href="#-github-analytics"><img src="https://img.shields.io/badge/📊_Analytics-555555?style=flat&logoColor=white" alt="Analytics"/></a>
 
-<a href="#-hugging-face"><img src="https://img.shields.io/badge/🤗_Hugging_Face-777777?style=flat&logoColor=white" alt="Hugging Face"/></a>
-<a href="#-interactive-faq"><img src="https://img.shields.io/badge/💬_FAQ-777777?style=flat&logoColor=white" alt="FAQ"/></a>
+
+
 </p>
-
-<!-- PROFILE BADGES -->
-<p align="center">
-<a href="https://github.com/Maftuuh1922"><img src="https://komarev.com/ghpvc/?username=Maftuuh1922&label=Profile%20Views&color=555555&style=flat" alt="Profile Views" /></a>
-<a href="https://github.com/Maftuuh1922?tab=repositories"><img src="https://img.shields.io/github/stars/Maftuuh1922?label=Stars&style=flat&color=777777&logo=github" alt="Stars"/></a>
-<a href="https://github.com/Maftuuh1922?tab=followers"><img src="https://img.shields.io/github/followers/Maftuuh1922?label=Followers&style=flat&color=444444&logo=github" alt="Followers"/></a>
-</p>
-
-<br/>
 
 <!-- ABOUT ME SECTION -->
 <h3 id="-about-me">👨‍💻 &nbsp;About Me</h3>
@@ -66,134 +56,6 @@
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- GITHUB STATS -->
-<h2 align="center" id="-github-analytics">📊 GitHub Analytics</h2>
-
-<p align="center">
-<a href="https://github.com/Maftuuh1922">
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Maftuuh1922&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=aaaaaa&icon_color=888888&text_color=ffffff&border_radius=20"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=aaaaaa&text_color=ffffff&border_radius=20"/>
-</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/piyushsuthar/github-readme-quotes">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&bg_color=0d1117&text_color=aaaaaa&border_radius=20" alt="Random Quote"/>
-</a>
-</p>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- HUGGING FACE -->
-<h2 align="center" id="-hugging-face">🤗 Hugging Face</h2>
-
-<p align="center">
-<a href="https://huggingface.co/maftuh-main" target="_blank">
-<img src="https://img.shields.io/badge/🤗_Profile-maftuh--main-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face Profile"/>
-</a>
-</p>
-
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-<img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-spaces-overview.png" width="700"/>
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td>
-
-<details>
-<summary><b>🖥️ Wastra Yolo Gradio — Chat about Indonesian Batik culture with an expert AI <i>(Click to expand)</i></b></summary>
-<br/>
-<p>🟢 <b>Running</b> · Gradio Space powered by <b>Wastra.ai</b> (fine-tuned Qwen2.5-1.5B). Ask it anything about Nusantara batik motifs, history, and philosophy.</p>
-<p><a href="https://huggingface.co/spaces/maftuh-main/wastra-ai">→ Open Space</a></p>
-</details>
-
-</td>
-</tr>
-<tr>
-<td>
-
-<details>
-<summary><b>👀 Wastra Yolo Api — Detect objects in images with YOLOv8 API <i>(Click to expand)</i></b></summary>
-<br/>
-<p>😴 <b>Sleeping</b> (spins up on request) · Serves the BatikLens YOLOv8 batik motif detector as an API endpoint.</p>
-<p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
-</details>
-
-</td>
-</tr>
-<tr>
-<td>
-
-<details>
-<summary><b>🎨 Wastra Lora Api — Generate custom images using Stable Diffusion and LoRA <i>(Click to expand)</i></b></summary>
-<br/>
-<p>😴 <b>Sleeping</b> (spins up on request) · Text-to-image generation fine-tuned on batik motifs via a Stable Diffusion LoRA adapter.</p>
-<p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
-</details>
-
-</td>
-</tr>
-<tr>
-<td>
-
-<details>
-<summary><b>🖌️ Batik Classifier — Enhance and analyze images with AI-powered tools <i>(Click to expand)</i></b></summary>
-<br/>
-<p>😴 <b>Sleeping</b> (spins up on request) · Classifies and analyzes batik motif images using AI-powered enhancement tools.</p>
-<p><a href="https://huggingface.co/spaces/maftuh-main">→ Open Space</a></p>
-</details>
-
-</td>
-</tr>
-<tr>
-<td>
-
-<details>
-<summary><b>🧠 Models & Datasets <i>(Click to expand)</i></b></summary>
-<br/>
-
-| Repository | Type |
-|:-----------|:-----|
-| [`maftuh-main/batik-qwen1.5b-adapter-v3`](https://huggingface.co/maftuh-main/batik-qwen1.5b-adapter-v3) | Model (LoRA adapter) |
-| [`maftuh-main/batik-qwen1.5b-merged`](https://huggingface.co/maftuh-main/batik-qwen1.5b-merged) | Model (merged, Text Generation) |
-| [`maftuh-main/wastra-yolov8-detector`](https://huggingface.co/maftuh-main/wastra-yolov8-detector) | Model (YOLOv8) |
-| [`maftuh-main/dataset-batik-trl-sft`](https://huggingface.co/datasets/maftuh-main/dataset-batik-trl-sft) | Dataset (3M rows) |
-
-</details>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- 🔄 Status Spaces & Models di bawah ini diupdate OTOMATIS oleh GitHub Actions -->
-<!-- Jangan edit manual di antara marker ini, akan tertimpa saat workflow jalan -->
-<!-- HF-ACTIVITY:START -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-statistics.svg?v=1791371730" alt="Hugging Face Statistics" />
-  <img src="https://raw.githubusercontent.com/Maftuuh1922/Maftuuh1922/main/assets/hf-focus-areas.svg?v=1791371730" alt="Top ML Tags" />
-</div>
-
-<!-- HF-ACTIVITY:END -->
-<br/>
 
 <!-- SUPPORT -->
 <h2 align="center">☕ Support My Work</h2>
