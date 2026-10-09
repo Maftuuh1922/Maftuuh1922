@@ -1,89 +1,88 @@
 <div align="center">
 
+# Hi, I'm Muhammad Maftuh 👋
+
+**AI engineer & full-stack builder from Indonesia.**
+I build AI agents, mobile apps and ML tools, all on a 2-core Celeron laptop.
+
+<a href="https://mfth.my.id/"><img src="https://img.shields.io/badge/Portfolio-mfth.my.id-111111?style=flat&logo=astro&logoColor=white" alt="Portfolio"/></a>
+<a href="https://neorachagent.vercel.app"><img src="https://img.shields.io/badge/Neovarch_Agent-live-C8101A?style=flat" alt="Neovarch Agent"/></a>
+<a href="https://huggingface.co/maftuh-main"><img src="https://img.shields.io/badge/🤗_Hugging_Face-maftuh--main-FFD21E?style=flat&logoColor=black" alt="Hugging Face"/></a>
+<a href="https://linkedin.com/in/maftuuh"><img src="https://img.shields.io/badge/LinkedIn-maftuuh-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 </div>
 
-<!-- NEOFETCH-STYLE INTRO -->
+---
+
+## 💻 Built on an Intel Celeron N4020
+
+Every project on this profile was written, trained, built and shipped on one machine:
+
+```text
+maftuh@omarchy
+--------------
+OS       Omarchy (Arch Linux) + Hyprland
+CPU      Intel Celeron N4020 (2 cores, 2 threads, up to 2.8 GHz)
+Shell    fish · kitty / foot
+Editor   Neovim / VS Code
+```
+
+No GPU workstation and no high-end MacBook. Just a low-power laptop, a tuned Linux setup and a lot of patience.
+Shipping a desktop app, an Android app and a Python agent core from this machine taught me to write software that stays fast on modest hardware.
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[Neovarch Agent](https://github.com/Maftuuh1922/neovrach_Agent)** · [site](https://neorachagent.vercel.app) | A local-first AI agent for desktop and Android. It has a 3D "office" where AI agents with their own personas work through tickets, plus an org chart, approvals, budgets and remote control from your phone. | Python · TypeScript · Electron · React · Flutter |
+| **[Boxtop](https://github.com/Maftuuh1922/omarchy-boxtop)** | A btop-style system monitor bar widget for Omarchy, with CPU, memory, network and processes in a blurred popup card. Its sampler uses about 14 ms of CPU per tick. | QML · Quickshell · Python |
+| **[BatikLens](https://github.com/Maftuuh1922/batiklens-ai-powered-heritage-explorer)** + **Wastra.ai** | An AI explorer and classifier for Indonesian batik, plus a batik cultural-expert LLM fine-tuned from Qwen2.5-1.5B with QLoRA. | PyTorch · TypeScript |
+| **[Nalar.ai](https://github.com/Maftuuh1922/Nalar.Ai)** | An educational AI assistant with RAG and real-time document analysis. | TypeScript · Python |
+| **openmed-id** | Indonesian clinical NLP: rule-based PII de-identification combined with zero-shot medical NER. | Python · NLP |
+| **[Pagarnet](https://github.com/Maftuuh1922/Pagarnet)** | A browser extension that blocks online-gambling ads and sites in real time with smart URL detection. | JavaScript |
+| **[PlantCare AI](https://github.com/Maftuuh1922/plantcare-ai-intelligent-plant-disease-detection)** | Plant disease detection from a photo. | TypeScript · ML |
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,astro,tailwind,electron,flutter,dart,pytorch,cs,dotnet,php,laravel,sqlite,postgres,docker,linux,arch,git&perline=11" alt="Tech stack"/>
+</p>
+
+- **AI / ML:** LLM agents, RAG, QLoRA fine-tuning, YOLOv8, NER and NLP for Indonesian
+- **Apps:** Electron desktop, Flutter Android, Next.js / Astro web, ASP.NET MVC, Laravel + Filament
+- **Linux:** Hyprland ricing, Quickshell widgets, and making everything run well on low-end hardware
+
+---
+
+## 🌏 About Me
+
+- 🎓 D3 Informatics Engineering graduate from **ULBI** (Bandung, Indonesia), and a former Quality Engineer intern at PT Primalogic Global Technology
+- 🇮🇩 I care about AI that serves Indonesian culture and healthcare: batik heritage, clinical NLP and education
+- 🤝 **Open to remote roles, freelance work and open-source collaboration**, worldwide (UTC+7)
+- 💬 I write in English and Bahasa Indonesia
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Maftuuh1922&show_icons=true&hide_border=true&theme=transparent" height="160" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maftuuh1922&layout=compact&hide_border=true&theme=transparent" height="160" alt="Top languages"/>
+</p>
+
+---
+
 <div align="center">
 
-# Assalamualaikum, I'm Muhammad Maftuh! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+If you like my work, you can support it here:
 
-</div>
+<a href="https://www.buymeacoffee.com/maftuuh"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/></a>
+<a href="https://ko-fi.com/maftuuh"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white" alt="Ko-fi"/></a>
 
+<sub>Built with ❤️ on a Celeron N4020 · Bandung, Indonesia</sub>
 
-<!-- INTERACTIVE MENU (TABLE OF CONTENTS) -->
-<p align="center">
-<a href="#-about-me"><img src="https://img.shields.io/badge/👤_About_Me-333333?style=flat&logoColor=white" alt="About Me"/></a>
-
-
-
-
-</p>
-
-<!-- ABOUT ME SECTION -->
-<h3 id="-about-me">👨‍💻 &nbsp;About Me</h3>
-
-🎓 &nbsp;D3 Informatics Engineering graduate — fresh from **ULBI**, former Quality Engineer intern at PT Primalogic Global Technology.\
-🤖 &nbsp;Building **openmed-id** — an Indonesian clinical NLP package combining rule-based PII de-identification with zero-shot medical NER.\
-🎨 &nbsp;Fine-tuning **Wastra.ai**, a batik cultural expert LLM (Qwen2.5-1.5B, QLoRA), as part of the **BatikLens** project.\
-🛠️ &nbsp;Comfortable across **Python, TypeScript, C#, SQL** — from YOLOv8 training pipelines to ASP.NET MVC systems.\
-🐧 &nbsp;Daily driver: **Omarchy (Arch-based) + Hyprland**, fish shell, kitty/foot terminal.\
-🇮🇩 &nbsp;Based in **Indonesia** — passionate about Indonesian cultural & healthcare AI applications.\
-🖥️ &nbsp;Open-source project: **Boxtop** — a btop-style system monitor (CPU / mem / net / proc) for **Omarchy** (Quickshell) with a blurred popup card, drag & drop boxes, presets, and a light Python sampler (~14 ms CPU/tick). [omarchy-boxtop](https://github.com/Maftuuh1922/omarchy-boxtop)
-
-<br/>
-
-### 🔗 &nbsp;Connect With Me
-
-<p align="center">
-<a href="mailto:maftuuh@example.com" target="_blank">
-<img src="https://img.shields.io/badge/Gmail-333333?style=flat&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
-<a href="https://linkedin.com/in/maftuuh" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-444444?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://instagram.com/maftuuh" target="_blank">
-<img src="https://img.shields.io/badge/Instagram-555555?style=flat&logo=instagram&logoColor=white" alt="Instagram"/>
-</a>
-<a href="https://github.com/Maftuuh1922" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://huggingface.co/maftuh-main" target="_blank">
-<img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=flat&logoColor=black" alt="Hugging Face"/>
-</a>
-</p>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- SUPPORT -->
-<h2 align="center">☕ Support My Work</h2>
-
-<p align="center">
-<em>If you find my projects helpful, consider buying me a coffee! ☕</em>
-</p>
-
-<p align="center">
-<a href="https://www.buymeacoffee.com/maftuuh" target="_blank">
-<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-333333?style=flat&logo=buy-me-a-coffee&logoColor=white" height="30" alt="Buy Me A Coffee" />
-</a>
-<a href="https://ko-fi.com/maftuuh" target="_blank">
-<img src="https://img.shields.io/badge/Ko--fi-444444?style=flat&logo=ko-fi&logoColor=white" height="30" alt="Ko-Fi"/>
-</a>
-</p>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- FOOTER -->
-<div align="center">
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=555555&height=100&section=footer"/>
-
-<br/>
-
-⭐️ From [Muhammad Maftuh](https://github.com/Maftuuh1922) with ❤️
 </div>
