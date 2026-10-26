@@ -3,7 +3,7 @@
 # Hi, I'm Muhammad Maftuh 👋
 
 **AI engineer & full-stack builder from Indonesia.**
-I build AI agents, mobile apps and ML tools, all on a 2-core Celeron laptop.
+I build AI agents, mobile apps and ML tools, all on a 2-core Celeron laptop
 
 <a href="https://mfth.my.id/"><img src="https://img.shields.io/badge/Portfolio-mfth.my.id-111111?style=flat&logo=astro&logoColor=white" alt="Portfolio"/></a>
 <a href="https://neorachagent.vercel.app"><img src="https://img.shields.io/badge/Neovarch_Agent-live-C8101A?style=flat" alt="Neovarch Agent"/></a>
